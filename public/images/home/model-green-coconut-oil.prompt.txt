@@ -1,0 +1,12 @@
+Generated with the built-in image_gen tool.
+
+Use case: photorealistic-natural
+Asset type: elegant lifestyle photograph for a natural coconut oil website.
+Primary request: an adult female model posing for a photograph in a green dress, holding a plain clear glass bottle of coconut oil, with no branding whatsoever.
+Subject: one adult Indonesian woman approximately 28 years old, natural makeup, realistic skin texture, relaxed welcoming expression with a gentle smile, dark hair loosely tucked behind her ears. She wears a modest elegant palm-green (#3f5a3a) linen dress with a simple neckline. Her pose is comfortable and natural, facing the camera at a slight angle.
+Product: one simple transparent clear glass bottle filled with clear, nearly colorless coconut oil, a small natural wood cap. Entire bottle completely visible, no label, no logo, no lettering, no engraving, no brand. She gently holds the bottle at mid-torso level with one hand around the lower side and the other supporting the base, realistic anatomically correct hands, fingers do not obscure the clear front of the bottle.
+Scene/backdrop: minimal soft sage-green studio background, subtly lighter than the dress, matte texture, no props or decoration.
+Style/medium: believable premium editorial beauty and wellness photography, tactile linen, accurate glass reflections and refraction, natural skin pores, fine film grain, restrained natural colors.
+Composition/framing: portrait 4:5, waist-up framing, full head and both hands within the frame, enough room above the head, model and bottle both clearly visible and sharp, harmonious balanced composition.
+Lighting/mood: soft diffused natural window light, gentle shadows, calm elegant welcoming mood.
+Constraints: no text, no labels, no logos, no watermarks, no branding, no extra bottles, no added products, no plants hiding the model, no yellow or golden oil, no plastic bottle, no CGI, no 3D render, no artificial waxy skin, no extra fingers or distorted hands. The bottle is completely plain clear glass.

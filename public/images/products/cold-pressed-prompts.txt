@@ -1,0 +1,66 @@
+Generated with the built-in image_gen tool.
+Style reference: public/images/home/coconut-oil-elegant-still-life.png
+Final files: public/images/products/<slug>.png and <slug>.webp
+WebP encoded using Sharp at quality 85. Original generation dimensions preserved.
+
+Minyak Kemiri
+Filename: kukui-nut-oil.png / kukui-nut-oil.webp
+
+Use case: product-mockup
+Asset type: one portrait commercial product photograph for the Minyak Kemiri card in the Cold-Pressed Oils collection of the Camp Bali website.
+Primary request: create a NEW photograph of Minyak Kemiri as part of a coherent elegant set of four cold-pressed oils.
+Input images: Image 1 is a STYLE AND COMPOSITION REFERENCE ONLY, depicting coconut oil. Match its clear bottle shape, simple wooden stopper, cream travertine slab, cream linen, muted green backdrop, camera angle, lighting, photographic quality and quiet artisanal mood. Replace the coconut and colorless coconut oil completely with the ingredient and oil specified below. Do not include coconut.
+Hero subject: exactly one completely plain clear glass bottle with a simple cylindrical natural wood cap, upright slightly left of center, filled with a pale straw-gold translucent oil. No label, no text, no logo, no branding, no engraving. Bottle is sharp and the dominant subject, about 55 percent of image height.
+Ingredient: A restrained group of real candlenuts (kukui / kemiri): several ivory cream irregular rounded kernels and two brown hard-shelled nuts. Recognizable candlenuts, not walnuts, almonds, or macadamias. Arrange the ingredients compactly at the bottle's lower right, small and subordinate to the bottle.
+Scene/backdrop: low rectangular warm-cream travertine platform with natural pores, a subtle small fold of ivory linen at the left edge, softly textured desaturated palm-green studio wall inspired by #3f5a3a. Background is uncluttered. Similar composition and object scale to the reference.
+Composition/framing: vertical 3:4 portrait, intended for narrow homepage cards. Keep bottle, stopper, base and ingredient fully inside the CENTRAL 75 percent of frame width, with generous clean top and side margins so the photograph also tolerates a 4:5 crop. Similar bottle height, platform level and framing across this product series. Single image, not a collage.
+Lighting/style: soft natural morning window light from upper left, refined believable glass reflections and refraction, gentle grounded shadows, fine material textures, realistic high-end editorial still-life photography, muted natural film color, subtle fine grain, calm quiet luxury.
+Constraints: no coconut, no people, no hands, no animals, no text, no words, no labels, no logos, no watermark, no extra bottles, no random leaves or flowers, no certificates, no oil splash, no harsh contrast, no CGI, no 3D render, no plastic-looking surfaces, no clutter. Use only the specified ingredient. Preserve the elegant art direction of the reference, while showing the correct oil and its own source ingredient.
+
+---
+
+Minyak Wijen
+Filename: sesame-oil.png / sesame-oil.webp
+
+Use case: product-mockup
+Asset type: one portrait commercial product photograph for the Minyak Wijen card in the Cold-Pressed Oils collection of the Camp Bali website.
+Primary request: create a NEW photograph of Minyak Wijen as part of a coherent elegant set of four cold-pressed oils.
+Input images: Image 1 is a STYLE AND COMPOSITION REFERENCE ONLY, depicting coconut oil. Match its clear bottle shape, simple wooden stopper, cream travertine slab, cream linen, muted green backdrop, camera angle, lighting, photographic quality and quiet artisanal mood. Replace the coconut and colorless coconut oil completely with the ingredient and oil specified below. Do not include coconut.
+Hero subject: exactly one completely plain clear glass bottle with a simple cylindrical natural wood cap, upright slightly left of center, filled with a gentle light golden translucent unroasted sesame oil, not dark toasted sesame oil. No label, no text, no logo, no branding, no engraving. Bottle is sharp and the dominant subject, about 55 percent of image height.
+Ingredient: A small shallow warm-ivory ceramic dish containing delicate tiny pale ivory sesame seeds, with a few seeds scattered beside it. Real sesame seeds are very small flat oval grains, not rice or large nuts. Arrange the ingredients compactly at the bottle's lower right, small and subordinate to the bottle.
+Scene/backdrop: low rectangular warm-cream travertine platform with natural pores, a subtle small fold of ivory linen at the left edge, softly textured desaturated palm-green studio wall inspired by #3f5a3a. Background is uncluttered. Similar composition and object scale to the reference.
+Composition/framing: vertical 3:4 portrait, intended for narrow homepage cards. Keep bottle, stopper, base and ingredient fully inside the CENTRAL 75 percent of frame width, with generous clean top and side margins so the photograph also tolerates a 4:5 crop. Similar bottle height, platform level and framing across this product series. Single image, not a collage.
+Lighting/style: soft natural morning window light from upper left, refined believable glass reflections and refraction, gentle grounded shadows, fine material textures, realistic high-end editorial still-life photography, muted natural film color, subtle fine grain, calm quiet luxury.
+Constraints: no coconut, no people, no hands, no animals, no text, no words, no labels, no logos, no watermark, no extra bottles, no random leaves or flowers, no certificates, no oil splash, no harsh contrast, no CGI, no 3D render, no plastic-looking surfaces, no clutter. Use only the specified ingredient. Preserve the elegant art direction of the reference, while showing the correct oil and its own source ingredient.
+
+---
+
+Flaxseed Oil
+Filename: flaxseed-oil.png / flaxseed-oil.webp
+
+Use case: product-mockup
+Asset type: one portrait commercial product photograph for the Flaxseed Oil card in the Cold-Pressed Oils collection of the Camp Bali website.
+Primary request: create a NEW photograph of Flaxseed Oil as part of a coherent elegant set of four cold-pressed oils.
+Input images: Image 1 is a STYLE AND COMPOSITION REFERENCE ONLY, depicting coconut oil. Match its clear bottle shape, simple wooden stopper, cream travertine slab, cream linen, muted green backdrop, camera angle, lighting, photographic quality and quiet artisanal mood. Replace the coconut and colorless coconut oil completely with the ingredient and oil specified below. Do not include coconut.
+Hero subject: exactly one completely plain clear glass bottle with a simple cylindrical natural wood cap, upright slightly left of center, filled with a natural warm golden-amber translucent oil. No label, no text, no logo, no branding, no engraving. Bottle is sharp and the dominant subject, about 55 percent of image height.
+Ingredient: A small shallow warm-ivory ceramic dish containing golden flaxseeds, with a few seeds scattered beside it. Real flax seeds are small flat smooth shiny oval teardrop-shaped grains, honey-brown to golden brown, distinctly larger and browner than ivory sesame seeds. Arrange the ingredients compactly at the bottle's lower right, small and subordinate to the bottle.
+Scene/backdrop: low rectangular warm-cream travertine platform with natural pores, a subtle small fold of ivory linen at the left edge, softly textured desaturated palm-green studio wall inspired by #3f5a3a. Background is uncluttered. Similar composition and object scale to the reference.
+Composition/framing: vertical 3:4 portrait, intended for narrow homepage cards. Keep bottle, stopper, base and ingredient fully inside the CENTRAL 75 percent of frame width, with generous clean top and side margins so the photograph also tolerates a 4:5 crop. Similar bottle height, platform level and framing across this product series. Single image, not a collage.
+Lighting/style: soft natural morning window light from upper left, refined believable glass reflections and refraction, gentle grounded shadows, fine material textures, realistic high-end editorial still-life photography, muted natural film color, subtle fine grain, calm quiet luxury.
+Constraints: no coconut, no people, no hands, no animals, no text, no words, no labels, no logos, no watermark, no extra bottles, no random leaves or flowers, no certificates, no oil splash, no harsh contrast, no CGI, no 3D render, no plastic-looking surfaces, no clutter. Use only the specified ingredient. Preserve the elegant art direction of the reference, while showing the correct oil and its own source ingredient.
+
+---
+
+Sacha Inchi Oil
+Filename: sacha-inchi-oil.png / sacha-inchi-oil.webp
+
+Use case: product-mockup
+Asset type: one portrait commercial product photograph for the Sacha Inchi Oil card in the Cold-Pressed Oils collection of the Camp Bali website.
+Primary request: create a NEW photograph of Sacha Inchi Oil as part of a coherent elegant set of four cold-pressed oils.
+Input images: Image 1 is a STYLE AND COMPOSITION REFERENCE ONLY, depicting coconut oil. Match its clear bottle shape, simple wooden stopper, cream travertine slab, cream linen, muted green backdrop, camera angle, lighting, photographic quality and quiet artisanal mood. Replace the coconut and colorless coconut oil completely with the ingredient and oil specified below. Do not include coconut.
+Hero subject: exactly one completely plain clear glass bottle with a simple cylindrical natural wood cap, upright slightly left of center, filled with a delicate pale yellow-gold translucent oil. No label, no text, no logo, no branding, no engraving. Bottle is sharp and the dominant subject, about 55 percent of image height.
+Ingredient: A small cluster of real sacha inchi seeds: smooth flattened oval brown seeds and a few ivory shelled kernels. Include one small dried four-lobed woody sacha inchi seed capsule behind them, a rounded botanical star outline, not star anise and not a decorative five-point star. Arrange the ingredients compactly at the bottle's lower right, small and subordinate to the bottle.
+Scene/backdrop: low rectangular warm-cream travertine platform with natural pores, a subtle small fold of ivory linen at the left edge, softly textured desaturated palm-green studio wall inspired by #3f5a3a. Background is uncluttered. Similar composition and object scale to the reference.
+Composition/framing: vertical 3:4 portrait, intended for narrow homepage cards. Keep bottle, stopper, base and ingredient fully inside the CENTRAL 75 percent of frame width, with generous clean top and side margins so the photograph also tolerates a 4:5 crop. Similar bottle height, platform level and framing across this product series. Single image, not a collage.
+Lighting/style: soft natural morning window light from upper left, refined believable glass reflections and refraction, gentle grounded shadows, fine material textures, realistic high-end editorial still-life photography, muted natural film color, subtle fine grain, calm quiet luxury.
+Constraints: no coconut, no people, no hands, no animals, no text, no words, no labels, no logos, no watermark, no extra bottles, no random leaves or flowers, no certificates, no oil splash, no harsh contrast, no CGI, no 3D render, no plastic-looking surfaces, no clutter. Use only the specified ingredient. Preserve the elegant art direction of the reference, while showing the correct oil and its own source ingredient.

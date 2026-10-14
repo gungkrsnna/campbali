@@ -1,0 +1,12 @@
+Generated with the built-in image_gen tool.
+
+Use case: product-mockup
+Asset type: portrait 4:5 product photograph for the Virgin Coconut Oil spotlight on the Camp Bali homepage.
+Primary request: a beautiful editorial product image of Camp Bali virgin coconut oil, fitting a cream and palm-green natural products website.
+Scene/backdrop: warm off-white textured plaster background and a pale limestone tabletop, a small natural linen cloth under the coconut, restrained subtle palm-leaf shadows behind the product.
+Subject: one elegant upright clear glass bottle of pure transparent, nearly colorless liquid coconut oil with a simple natural wood cap. Bottle is the main focal point, centrally placed, occupying about 55 percent of image height. Matte coconut-cream paper label with refined dark palm-green serif typography. Label contains exactly these two lines: "CAMP BALI" and "VIRGIN COCONUT OIL". No other words, no capacity, no certificates or extra claims. One half of a fresh mature coconut with clean white flesh lies at the bottle's lower right, angled towards the camera. A small dark green palm frond rests subtly behind the bottle and coconut.
+Style/medium: premium believable commercial product photography, real glass refraction, subtly imperfect natural textures, highly detailed coconut fibers, elegant minimal styling.
+Composition/framing: portrait 4:5, eye-level close-up, generous breathing room around all objects, every object completely within the frame, bottle dominant and label fully visible, visually balanced arrangement for a large homepage product panel. Moderate depth of field, the bottle label and coconut are sharp.
+Lighting/mood: warm soft morning window light from upper left, gentle long shadows, calm tactile artisanal Bali atmosphere.
+Color palette: coconut cream #faf6ee, palm green #3f5a3a, natural coconut brown, soft sandy beige.
+Constraints: one image, no collage, no UI, no border, no watermark, no hands or people, no extra bottles, no additional text. Oil must be colorless, never yellow olive oil. The exact readable label text is "CAMP BALI" and "VIRGIN COCONUT OIL".

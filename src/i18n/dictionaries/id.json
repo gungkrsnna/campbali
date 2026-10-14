@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "Camp Bali — Berakar di Bali, Berdedikasi untuk Komunitas",
+    "description": "Produsen Virgin Coconut Oil pertama di Bali. Minyak alami, makanan, dan produk spa yang dibuat bersama komunitas desa — Aid Through Business."
+  },
+  "nav": {
+    "home": "Beranda",
+    "story": "Kisah Kami",
+    "ethos": "Prinsip Kami",
+    "products": "Produk",
+    "community": "Komunitas",
+    "contact": "Kontak",
+    "inquiry": "Daftar Saya",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "language": "Bahasa"
+  },
+  "home": {
+    "titleLead": "Berakar di Bali,",
+    "titleAccent": "Berdedikasi untuk Komunitas",
+    "tagline": "Virgin Coconut Oil murni dan produk alami, dibuat bersama komunitas desa di Bali.",
+    "ctaProducts": "Lihat Produk",
+    "ctaStory": "Baca Kisah Kami",
+    "ethosTitle": "Yang Kami Yakini",
+    "ethosLink": "Kenali prinsip kami",
+    "vcoLabel": "Produk andalan · Sejak 2006",
+    "vcoDetails": "Detail produk",
+    "oilsIntro": "Minyak premium non-RBD, diperas dingin untuk menjaga karakter alaminya.",
+    "pantryIntro": "Bahan sederhana dari petani Bali, untuk masakan dan kue sehari-hari.",
+    "viewAll": "Lihat semua produk",
+    "orderTitle": "Cara Memesan",
+    "orderIntro": "Tanpa checkout, tanpa akun — cukup sebuah daftar dan percakapan.",
+    "orderSteps": [
+      {
+        "title": "Pilih produk",
+        "text": "Pilih produk dan ukuran yang Anda butuhkan, lalu tambahkan ke daftar."
+      },
+      {
+        "title": "Kirim daftar Anda",
+        "text": "Kirim ke kami lewat WhatsApp dalam satu ketukan, atau unduh sebagai PDF."
+      },
+      {
+        "title": "Kami balas langsung",
+        "text": "Kami mengonfirmasi harga, ketersediaan, dan pengiriman langsung kepada Anda."
+      }
+    ],
+    "orderCta": "Mulai daftar Anda",
+    "orderSampleName": "Wayan",
+    "orderSampleCity": "Ubud, Bali",
+    "orderReply": "Terima kasih, Wayan! Keduanya tersedia — berikut harga hari ini dan pilihan pengiriman untuk daftar Anda.",
+    "orderPreviewLabel": "Yang Anda kirim — dan balasan kami",
+    "journeyLink": "Baca kisah kami",
+    "businessLabel": "Quality Service · Products of Integrity",
+    "businessTitle": "Untuk hotel, spa, kafe & reseller",
+    "businessText": "Pasokan grosir minyak dan bahan pangan kami — hingga jeriken Virgin Coconut Oil 20 liter — dengan layanan langsung dan personal.",
+    "businessWhatsApp": "Hubungi kami via WhatsApp",
+    "businessContact": "Cara lain menghubungi kami",
+    "businessMessage": "Halo Camp Bali, saya tertarik dengan pasokan grosir / reseller.",
+    "businessImageAlt": "Seorang wanita bergaun linen hijau palem yang berjalan tanpa alas kaki, memegang botol kaca berisi virgin coconut oil",
+    "journeyYear": "2006",
+    "journeyHighlight": "Virgin Coconut Oil pertama di Bali",
+    "journeyStory": [
+      "Hampir dua dekade lalu, keluarga kami pindah ke Bali untuk mencari hidup yang lebih sederhana — dan agar ketiga anak kami terhubung erat dengan akar Indonesia mereka. Awalnya kami datang untuk membangun bisnis IT, namun mahalnya biaya internet saat itu membawa kami ke arah yang berbeda.",
+      "Melalui perusahaan kami, Consultek, kami bermitra dengan Bali Appropriate Technology Institute untuk memproduksi Virgin Coconut Oil — menjadi produsen VCO pertama di Bali. Masuknya produk kami ke rak Bali Buddha menjadi tonggak penting pertama kami."
+    ],
+    "stats": [
+      {
+        "value": "~20",
+        "label": "tahun berakar di Bali"
+      },
+      {
+        "value": "Pertama",
+        "label": "produsen Virgin Coconut Oil di Bali"
+      },
+      {
+        "value": "7",
+        "label": "produk alami"
+      },
+      {
+        "value": "100%",
+        "label": "minyak kami cold-pressed & non-RBD"
+      }
+    ],
+    "processTitle": "Dari Desa ke Botol",
+    "processIntro": "Singkat, sederhana, dan dekat — setiap langkah tetap di Bali, bersama orang-orang yang menanam bahan baku kami.",
+    "processImageAlt": "Pohon kelapa dan sawah berundak berkabut pagi di pedesaan Bali",
+    "processSteps": [
+      {
+        "title": "Bahan baku",
+        "text": "Kelapa, kemiri, dan biji-bijian langsung dari petani di desa-desa Bali."
+      },
+      {
+        "title": "Diperas dingin",
+        "text": "Diperas dingin, tanpa dimurnikan, diputihkan, atau dihilangkan aromanya (non-RBD)."
+      },
+      {
+        "title": "Pembotolan",
+        "text": "Disaring dan dibotolkan secara lokal, dari botol 100 ml hingga jeriken 20 liter."
+      },
+      {
+        "title": "Sampai ke Anda",
+        "text": "Dikirim ke dapur, spa, dan reseller — dengan balasan personal lewat WhatsApp."
+      }
+    ],
+    "testimonialsTitle": "Kata Mereka",
+    "faqTitle": "Pertanyaan Umum",
+    "faqIntro": "Hal-hal yang biasanya ditanyakan sebelum pesanan pertama.",
+    "faqMore": "Masih ada pertanyaan? Tanyakan lewat WhatsApp",
+    "faqMessage": "Halo Camp Bali, saya ingin bertanya:",
+    "sunHeroAlt": "Botol kaca berisi minyak kelapa di samping kelapa segar dan daun palem di bawah sinar matahari hangat",
+    "sunVcoAlt": "Setengah buah kelapa segar di atas kain linen alami",
+    "sunHeroAlt3": "Sebotol minyak wijen virgin di samping semangkuk biji wijen di atas batu",
+    "luxeCollection": "Koleksi",
+    "luxeProcess": "Proses Kami",
+    "luxeHeroAlt": "Seorang wanita bergaun sutra hijau zamrud berputar anggun, memegang botol kaca kecil berisi minyak kelapa",
+    "motionScroll": "Gulir untuk menjelajah",
+    "motionScrollHint": "Gulir →",
+    "motionCircle": "Sapa kami di WhatsApp"
+  },
+  "story": {
+    "title": "Kisah Kami",
+    "lead": "Camp Bali: Kisah & Prinsip Kami",
+    "originsTitle": "Awal Mula",
+    "origins": [
+      "Kisah Camp Bali dimulai hampir dua dekade lalu, ketika keluarga kami memutuskan pindah ke Bali. Kami ingin lepas dari rutinitas yang melelahkan dan ingin ketiga anak kami terhubung erat dengan akar Indonesia mereka. Rencana awal kami adalah membangun bisnis IT, namun mahalnya biaya internet saat itu membawa kami ke arah yang berbeda.",
+      "Melalui perusahaan kami, Consultek, kami bermitra dengan Bali Appropriate Technology Institute untuk memproduksi dan memasarkan Virgin Coconut Oil (VCO) berkualitas tinggi. Kami bangga menjadi pelopor sebagai produsen VCO pertama di Bali, dan masuknya produk kami ke rak Bali Buddha menjadi tonggak penting. Seiring waktu, kami berkembang ke berbagai minyak, makanan alami, dan produk spa, dengan VCO tetap menjadi inti merek kami."
+    ],
+    "timelineTitle": "Tonggak Perjalanan",
+    "timeline": [
+      {
+        "year": "2005",
+        "title": "Awal yang Baru",
+        "text": "Keluarga pindah ke Bali untuk menjalani gaya hidup berkelanjutan dan terhubung dengan akar Indonesia."
+      },
+      {
+        "year": "2006",
+        "title": "Pelopor VCO di Bali",
+        "text": "Bermitra dengan Bali Appropriate Technology Institute meluncurkan merek Virgin Coconut Oil pertama di Bali, dengan Bali Buddha sebagai mitra ritel pertama."
+      },
+      {
+        "year": "2010-an",
+        "title": "Perluasan Produk & Desa",
+        "text": "Memperluas lini produk ke makanan alami, spa, dan wellness sambil membangun jaringan pasokan langsung dari desa-desa setempat."
+      },
+      {
+        "year": "Kini & Nanti",
+        "title": "Masa Depan Berkelanjutan",
+        "text": "Terus berinovasi dengan produk baru untuk menghidupkan kembali ekonomi pertanian di komunitas pedesaan."
+      }
+    ]
+  },
+  "ethos": {
+    "title": "Prinsip Kami: Aid Through Business",
+    "intro": "Kami berpegang pada keyakinan sederhana namun kuat: \"Aid through Business\" — membantu melalui bisnis. Kami bermitra langsung dengan petani, pekebun, dan perajin di desa-desa, mengambil bahan baku dan memproduksi secara lokal sebisa mungkin. Dengan mendukung model bisnis berkelanjutan, kami ikut memperkuat ekonomi pedesaan dan memberdayakan komunitas setempat.",
+    "missionTitle": "Misi Kami",
+    "mission": "Menghasilkan minyak alami dan produk wellness berkualitas tinggi sambil menumbuhkan mata pencaharian berkelanjutan bagi komunitas pedesaan Indonesia.",
+    "pillarsTitle": "Pilar Utama Kami",
+    "pillars": [
+      {
+        "title": "Aid Through Business",
+        "text": "Memberdayakan keluarga desa melalui perdagangan yang adil, bukan sekadar bantuan amal."
+      },
+      {
+        "title": "Pasokan dari Komunitas",
+        "text": "Bermitra langsung dengan petani dan produsen lokal agar pendapatan tetap berputar di ekonomi desa."
+      },
+      {
+        "title": "Inovasi Berkelanjutan",
+        "text": "Mengembangkan produk baru yang menghidupkan kembali komunitas petani tradisional."
+      }
+    ]
+  },
+  "products": {
+    "title": "Produk",
+    "intro": "Tambahkan produk ke daftar Anda, lalu kirimkan ke kami lewat WhatsApp. Kami akan membalas dengan harga dan ketersediaan.",
+    "all": "Semua",
+    "categories": {
+      "vco": "Virgin Coconut Oil",
+      "oils": "Minyak Cold-Pressed",
+      "foods": "Bahan Pangan Alami"
+    },
+    "addToList": "Tambah ke daftar",
+    "inList": "Sudah di daftar",
+    "back": "Kembali ke produk",
+    "size": "Ukuran"
+  },
+  "inquiry": {
+    "title": "Daftar Saya",
+    "intro": "Periksa daftar Anda, isi data diri, lalu kirim ke kami lewat WhatsApp atau unduh sebagai PDF.",
+    "empty": "Daftar Anda masih kosong.",
+    "browse": "Lihat produk",
+    "product": "Produk",
+    "size": "Ukuran",
+    "code": "Kode",
+    "qty": "Jml",
+    "remove": "Hapus",
+    "clear": "Kosongkan daftar",
+    "detailsTitle": "Data Anda",
+    "name": "Nama",
+    "phone": "Telepon / WhatsApp",
+    "city": "Kota / Negara",
+    "notes": "Catatan",
+    "notesPlaceholder": "Alamat pengiriman, ukuran yang diinginkan, pertanyaan…",
+    "required": "Mohon isi nama Anda.",
+    "sendWhatsApp": "Kirim via WhatsApp",
+    "downloadPdf": "Unduh PDF",
+    "docTitle": "Permintaan Produk",
+    "date": "Tanggal",
+    "messageGreeting": "Halo Camp Bali, saya ingin menanyakan produk berikut:",
+    "messageClosing": "Terima kasih!"
+  },
+  "community": {
+    "title": "Komunitas",
+    "intro": "Kami bermitra dengan petani, pekebun, dan perajin di desa-desa Bali, mengambil bahan baku dan memproduksi secara lokal sebisa mungkin.",
+    "comingSoon": "Cerita dari desa-desa mitra kami akan segera hadir."
+  },
+  "contact": {
+    "title": "Kontak",
+    "intro": "Pertanyaan, pembelian grosir, atau ingin menjadi reseller — kami senang mendengar dari Anda.",
+    "whatsapp": "Chat lewat WhatsApp",
+    "email": "Email",
+    "location": "Lokasi",
+    "locationValue": "Bali, Indonesia"
+  },
+  "footer": {
+    "tagline": "Aid Through Business — produk alami yang dibuat bersama komunitas desa di Bali.",
+    "rights": "Hak cipta dilindungi.",
+    "explore": "Jelajahi",
+    "contactTitle": "Kontak",
+    "follow": "Ikuti",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "motto": "Quality Service · Products of Integrity"
+  },
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "back": "Kembali ke beranda"
+  },
+  "comingSoon": {
+    "label": "Segera hadir",
+    "title": "Segera hadir",
+    "text": "Halaman ini sedang kami siapkan dengan sepenuh hati. Sementara itu, jelajahi beranda kami — atau sapa kami lewat WhatsApp.",
+    "home": "Kembali ke beranda",
+    "whatsapp": "Chat lewat WhatsApp",
+    "message": "Halo Camp Bali!"
+  }
+}

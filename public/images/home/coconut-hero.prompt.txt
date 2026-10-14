@@ -1,0 +1,12 @@
+Generated with the built-in image_gen tool.
+
+Use case: photorealistic-natural
+Asset type: wide photographic hero background for the homepage of Camp Bali, a Bali-based virgin coconut oil and natural foods brand.
+Primary request: an elegant, warm editorial still life of fresh coconuts and pure virgin coconut oil, with tropical leaves, matching a quiet cream and palm-green website.
+Scene/backdrop: a sunlit pale coconut-cream plaster wall and a low warm ivory limestone tabletop, with a subtle small piece of natural linen. Natural tropical daylight, understated artisanal atmosphere.
+Subject: one simple unbranded clear glass bottle containing transparent nearly colorless virgin coconut oil with a natural wood stopper, one opened mature brown coconut with fresh white flesh and one whole mature coconut. Arrange this small still life in the LOWER RIGHT corner, concentrated within the rightmost 30 percent and bottom 35 percent of the frame. A few real dark olive-green coconut palm fronds enter only from the outer top-left edge, delicate botanical shadows at the outer edges.
+Style/medium: high-end natural editorial photography, believable glass, fibrous coconut husk and creamy flesh, fine material detail, restrained organic luxury, not a glossy 3D render.
+Composition/framing: very wide landscape 3:2 image suitable for cropping to a desktop 16:9 hero. The entire middle 60 percent and upper center must be uninterrupted light warm cream negative space for large dark green centered website headline and buttons. Keep subjects very low and right so they never overlap the centered copy area. Foreground eye-level, not top-down.
+Lighting/mood: soft warm morning sunlight from the left, gentle grounded shadows, calm and welcoming.
+Color palette: coconut cream #faf6ee, soft warm sand, muted palm green #3f5a3a, natural coconut brown.
+Constraints: no text, no logos, no labels, no watermark, no people, no collage, no frame, no added UI, no headline rendered into the image. Oil should be clear nearly colorless, not yellow olive oil. Leave generous calm empty cream space.

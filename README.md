@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Camp Bali Website
 
-## Getting Started
+Next.js 16 (App Router, Cache Components) + TypeScript + Tailwind CSS 4.
+Source content: the client brief (`Camp Bali Origins.docx`) and price list live in a local `docs/` folder, which is git-ignored (it contains wholesale prices and contacts).
 
-First, run the development server:
+## Getting started
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cp .env.example .env.local   # set NEXT_PUBLIC_WHATSAPP_NUMBER (digits only, e.g. 6281234567890)
+npm install
+npm run dev                  # http://localhost:3000 → redirects to /en or /id
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── proxy.ts                  # redirects "/" → "/en" or "/id" (by browser language)
+├── app/[lang]/               # every page lives under the locale segment
+│   ├── layout.tsx            # root layout: <html lang>, Header, Footer
+│   ├── page.tsx              # Home
+│   ├── our-story/            # origins + milestone timeline
+│   ├── ethos/                # mission + core pillars
+│   ├── products/             # catalogue, grouped by category
+│   ├── products/[slug]/      # product detail
+│   ├── inquiry/              # "My List" → send via WhatsApp / download PDF
+│   ├── community/
+│   └── contact/
+├── i18n/
+│   ├── config.ts             # locales list — add a language here
+│   ├── get-dictionary.ts     # server-side dictionary loader
+│   └── dictionaries/         # en.json, id.json (all page text)
+├── content/
+│   ├── products.ts           # product catalogue (bilingual)
+│   └── site.ts               # site name, contact, navigation
+├── lib/
+│   ├── inquiry.ts            # WhatsApp message + PDF generation
+│   ├── inquiry-store.ts      # list state (localStorage)
+│   └── paths.ts              # locale-aware URL helpers
+└── components/
+    ├── layout/               # Header, Footer, LanguageSwitcher
+    ├── sections/             # ProductCard, Timeline, PillarCards
+    ├── inquiry/              # AddToListButton, InquiryBadge, InquiryView
+    └── ui/                   # Container, Button, PageHeader
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Common tasks
 
-## Learn More
+- **Edit page text:** `src/i18n/dictionaries/en.json` and `id.json` (keep keys identical).
+- **Add a product:** add an entry to `src/content/products.ts`; put its photo in `public/images/products/`.
+- **Add a language:** add the code to `locales` in `src/i18n/config.ts`, copy `en.json` to `<code>.json` and translate, then register it in `get-dictionary.ts`.
 
-To learn more about Next.js, take a look at the following resources:
+## Inquiry flow
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Visitors add products to a list (stored in their browser), fill in their name/contact, then either:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Send via WhatsApp** — opens `wa.me` with a pre-filled, formatted message.
+2. **Download PDF** — generates the inquiry document with jsPDF.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`wa.me` links can only carry text, so the PDF is downloaded rather than attached automatically.
+Sending files straight to WhatsApp would need the (paid) WhatsApp Business API and a server.

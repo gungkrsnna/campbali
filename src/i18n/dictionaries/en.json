@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "Camp Bali — Rooted in Bali, Dedicated to Community",
+    "description": "Bali's first Virgin Coconut Oil producer. Natural oils, foods and spa products made with village communities — Aid Through Business."
+  },
+  "nav": {
+    "home": "Home",
+    "story": "Our Story",
+    "ethos": "Our Ethos",
+    "products": "Products",
+    "community": "Community",
+    "contact": "Contact",
+    "inquiry": "My List",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "home": {
+    "titleLead": "Rooted in Bali,",
+    "titleAccent": "Dedicated to Community",
+    "tagline": "Pure Virgin Coconut Oil and natural products, made with Bali’s village communities.",
+    "ctaProducts": "Explore Products",
+    "ctaStory": "Read Our Story",
+    "ethosTitle": "What We Believe",
+    "ethosLink": "Discover our ethos",
+    "vcoLabel": "Our signature · Since 2006",
+    "vcoDetails": "Product details",
+    "oilsIntro": "Premium non-RBD oils, cold-pressed to keep their natural character.",
+    "pantryIntro": "Simple ingredients from Balinese growers, for everyday cooking and baking.",
+    "viewAll": "View all products",
+    "orderTitle": "How to Order",
+    "orderIntro": "No checkout, no account — just a list and a conversation.",
+    "orderSteps": [
+      {
+        "title": "Choose your products",
+        "text": "Pick the products and sizes you need and add them to your list."
+      },
+      {
+        "title": "Send your list",
+        "text": "Send it to us on WhatsApp in one tap, or download it as a PDF."
+      },
+      {
+        "title": "We reply personally",
+        "text": "We confirm prices, availability and delivery with you directly."
+      }
+    ],
+    "orderCta": "Start your list",
+    "orderSampleName": "Wayan",
+    "orderSampleCity": "Ubud, Bali",
+    "orderReply": "Thank you, Wayan! Both are in stock — here are today’s prices and delivery options for your list.",
+    "orderPreviewLabel": "What you send — and how we reply",
+    "journeyLink": "Read our story",
+    "businessLabel": "Quality Service · Products of Integrity",
+    "businessTitle": "For hotels, spas, cafés & resellers",
+    "businessText": "Wholesale supply of our oils and pantry products — up to 20-litre containers of Virgin Coconut Oil — with direct, personal service.",
+    "businessWhatsApp": "Talk to us on WhatsApp",
+    "businessContact": "Other ways to reach us",
+    "businessMessage": "Hello Camp Bali, I am interested in wholesale / reseller supply.",
+    "businessImageAlt": "A woman in a flowing palm-green linen dress walking barefoot, holding a glass bottle of virgin coconut oil",
+    "journeyYear": "2006",
+    "journeyHighlight": "Bali’s first Virgin Coconut Oil",
+    "journeyStory": [
+      "Nearly two decades ago, our family moved to Bali in search of a simpler life — and so our three children could connect deeply with their Indonesian roots. We came to start an IT business, but high internet costs at the time led us in a new direction.",
+      "Through our company, Consultek, we partnered with the Bali Appropriate Technology Institute to produce Virgin Coconut Oil — becoming the first VCO producers in Bali. Reaching the shelves of Bali Buddha marked our first major milestone."
+    ],
+    "stats": [
+      {
+        "value": "~20",
+        "label": "years rooted in Bali"
+      },
+      {
+        "value": "1st",
+        "label": "Virgin Coconut Oil producer in Bali"
+      },
+      {
+        "value": "7",
+        "label": "natural products"
+      },
+      {
+        "value": "100%",
+        "label": "of our oils cold-pressed & non-RBD"
+      }
+    ],
+    "processTitle": "From Village to Bottle",
+    "processIntro": "Short, simple and close to home — every step stays in Bali, with the people who grow what we make.",
+    "processImageAlt": "Coconut palms and rice terraces in morning mist in rural Bali",
+    "processSteps": [
+      {
+        "title": "Sourcing",
+        "text": "Coconuts, nuts and seeds come straight from growers in Bali’s villages."
+      },
+      {
+        "title": "Cold-pressing",
+        "text": "Pressed cold and never refined, bleached or deodorised (non-RBD)."
+      },
+      {
+        "title": "Bottling",
+        "text": "Filtered and bottled locally, from 100 ml bottles to 20-litre containers."
+      },
+      {
+        "title": "To you",
+        "text": "Delivered to kitchens, spas and resellers — with a personal reply on WhatsApp."
+      }
+    ],
+    "testimonialsTitle": "Kind Words",
+    "faqTitle": "Questions",
+    "faqIntro": "The things people usually ask before their first order.",
+    "faqMore": "Still curious? Ask us on WhatsApp",
+    "faqMessage": "Hello Camp Bali, I have a question:",
+    "sunHeroAlt": "A glass bottle of coconut oil beside fresh coconuts and palm leaves in warm sunlight",
+    "sunVcoAlt": "A halved fresh coconut resting on natural linen",
+    "sunHeroAlt3": "A bottle of virgin sesame oil beside a bowl of sesame seeds on stone",
+    "luxeCollection": "The Collection",
+    "luxeProcess": "Our Process",
+    "luxeHeroAlt": "A woman in an emerald silk dress turning gracefully, holding a small glass bottle of coconut oil",
+    "motionScroll": "Scroll to explore",
+    "motionScrollHint": "Scroll →",
+    "motionCircle": "Say hello on WhatsApp"
+  },
+  "story": {
+    "title": "Our Story",
+    "lead": "Camp Bali: Our Story & Ethos",
+    "originsTitle": "Our Origins",
+    "origins": [
+      "The story of Camp Bali started nearly two decades ago when our family made a life-changing move to Bali. Seeking an escape from the rat race, we wanted our three children to deeply connect with their Indonesian roots. While our initial plan was to establish an IT business, high internet costs at the time led us in a new direction.",
+      "Partnering with the Bali Appropriate Technology Institute through our company, Consultek, we set out to produce and market high-quality Virgin Coconut Oil (VCO). We were proud pioneers as the first VCO producers in Bali, and reaching the shelves of Bali Buddha marked a major milestone. Over the years, we have expanded into a variety of oils, natural foods, and spa products, with VCO remaining the core of our brand."
+    ],
+    "timelineTitle": "Milestones",
+    "timeline": [
+      {
+        "year": "2005",
+        "title": "A New Beginning",
+        "text": "Family relocates to Bali to embrace a sustainable lifestyle and connect with Indonesian roots."
+      },
+      {
+        "year": "2006",
+        "title": "Pioneering VCO in Bali",
+        "text": "Partnered with Bali Appropriate Technology Institute to launch Bali's first Virgin Coconut Oil brand, landing our first retail partner at Bali Buddha."
+      },
+      {
+        "year": "2010s",
+        "title": "Product & Village Expansion",
+        "text": "Expanded product lines into natural foods, spa, and wellness items while establishing direct sourcing networks in local villages."
+      },
+      {
+        "year": "Today & Beyond",
+        "title": "Sustainable Futures",
+        "text": "Continuing to innovate with new products aimed at revitalizing agricultural economies in rural communities."
+      }
+    ]
+  },
+  "ethos": {
+    "title": "Our Ethos: Aid Through Business",
+    "intro": "We operate on a simple yet powerful conviction: \"Aid through Business.\" We actively partner with local growers, farmers, and artisans across village communities, sourcing raw ingredients and manufacturing locally whenever possible. By supporting sustainable business models, we help strengthen rural economies and empower local communities.",
+    "missionTitle": "Our Mission",
+    "mission": "To create high-quality, pure natural oils and wellness products while nurturing sustainable livelihoods for rural Indonesian communities.",
+    "pillarsTitle": "Our Core Pillars",
+    "pillars": [
+      {
+        "title": "Aid Through Business",
+        "text": "Empowering rural families through fair commerce rather than charity."
+      },
+      {
+        "title": "Community Sourcing",
+        "text": "Partnering directly with local growers and producers to keep revenue inside village economies."
+      },
+      {
+        "title": "Sustainable Innovation",
+        "text": "Developing new products that breathe life into traditional farming communities."
+      }
+    ]
+  },
+  "products": {
+    "title": "Products",
+    "intro": "Add products to your list, then send it to us on WhatsApp. We will reply with prices and availability.",
+    "all": "All",
+    "categories": {
+      "vco": "Virgin Coconut Oil",
+      "oils": "Cold-Pressed Oils",
+      "foods": "Natural Pantry"
+    },
+    "addToList": "Add to list",
+    "inList": "In your list",
+    "back": "Back to products",
+    "size": "Size"
+  },
+  "inquiry": {
+    "title": "My List",
+    "intro": "Review your list, fill in your details, then send it to us on WhatsApp or download it as a PDF.",
+    "empty": "Your list is empty.",
+    "browse": "Browse products",
+    "product": "Product",
+    "size": "Size",
+    "code": "Code",
+    "qty": "Qty",
+    "remove": "Remove",
+    "clear": "Clear list",
+    "detailsTitle": "Your details",
+    "name": "Name",
+    "phone": "Phone / WhatsApp",
+    "city": "City / Country",
+    "notes": "Notes",
+    "notesPlaceholder": "Delivery address, preferred sizes, questions…",
+    "required": "Please fill in your name.",
+    "sendWhatsApp": "Send via WhatsApp",
+    "downloadPdf": "Download PDF",
+    "docTitle": "Product Inquiry",
+    "date": "Date",
+    "messageGreeting": "Hello Camp Bali, I would like to inquire about these products:",
+    "messageClosing": "Thank you!"
+  },
+  "community": {
+    "title": "Community",
+    "intro": "We partner with growers, farmers and artisans across Bali's villages, sourcing raw ingredients and manufacturing locally whenever possible.",
+    "comingSoon": "Stories from our partner villages are coming soon."
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Questions, wholesale or reseller enquiries — we would love to hear from you.",
+    "whatsapp": "Chat on WhatsApp",
+    "email": "Email",
+    "location": "Location",
+    "locationValue": "Bali, Indonesia"
+  },
+  "footer": {
+    "tagline": "Aid Through Business — natural products made with Bali's village communities.",
+    "rights": "All rights reserved.",
+    "explore": "Explore",
+    "contactTitle": "Contact",
+    "follow": "Follow",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "motto": "Quality Service · Products of Integrity"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "back": "Back to home"
+  },
+  "comingSoon": {
+    "label": "Coming soon",
+    "title": "Coming soon",
+    "text": "We are crafting this page with care. In the meantime, explore our home page — or simply say hello on WhatsApp.",
+    "home": "Back to home",
+    "whatsapp": "Chat on WhatsApp",
+    "message": "Hello Camp Bali!"
+  }
+}

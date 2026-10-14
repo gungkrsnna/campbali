@@ -1,26 +1,134 @@
 @import "tailwindcss";
 
+/* Brand tokens — temporary natural palette until the real brand guide arrives. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #faf6ee; /* coconut cream */
+  --foreground: #2b2a24;
+  --muted: #6b6656;
+  --surface: #ffffff;
+  --border: #e5ddc9;
+  --primary: #3f5a3a; /* palm green */
+  --primary-foreground: #faf6ee;
+  --accent: #b5653a; /* earth / terracotta */
+  --sun: #e0a526; /* concept B: sun gold */
+  --clay: #b9561f; /* concept B: clay */
+  --brand-sans: var(--font-manrope);
+  --brand-serif: var(--font-cormorant);
+}
+
+/* Concept B — "Sun & Earth" (from the original Camp Bali logo). The
+   concept-b page sets <html data-concept="sun"> while it is shown (see
+   ConceptTheme); the whole document, header and footer included, then
+   switches palette and fonts. */
+html[data-concept="sun"] {
+  --background: #f6ecdc; /* sand */
+  --foreground: #3a2414;
+  --muted: #7c5c43;
+  --surface: #fcf6ec;
+  --border: #e6d2b3;
+  --primary: #5b3219; /* earth brown */
+  --primary-foreground: #fcf6ec;
+  --accent: #c8641f; /* terracotta */
+  --brand-sans: var(--font-nunito);
+  --brand-serif: var(--font-fraunces);
+}
+
+/* Concept C — "Deep Green Luxe": dark forest green, cream type, thin gold.
+   Set by the concept-c page via <ConceptTheme concept="luxe">. */
+html[data-concept="luxe"] {
+  color-scheme: dark;
+  --background: #14211a; /* deep forest */
+  --foreground: #ece4d4; /* cream */
+  --muted: #a3a593;
+  --surface: #1b2b21;
+  --border: #2f4335;
+  --primary: #ece4d4; /* cream buttons on green */
+  --primary-foreground: #14211a;
+  --accent: #c9a961; /* antique gold */
+  --brand-sans: var(--font-jost);
+  --brand-serif: var(--font-bodoni);
+}
+/* Keep the footer dark (it is drawn with the primary colour elsewhere). */
+html[data-concept="luxe"] footer {
+  --primary: #0e1812;
+  --primary-foreground: #ece4d4;
+}
+
+/* Concept D — "Motion": immersive / interactive. Espresso black, cream type,
+   vivid terracotta. Set by the concept-d page via <ConceptTheme concept="motion">. */
+html[data-concept="motion"] {
+  color-scheme: dark;
+  --background: #11100e;
+  --foreground: #f2ece0;
+  --muted: #9a9384;
+  --surface: #1b1a17;
+  --border: #2d2b26;
+  --primary: #f2ece0;
+  --primary-foreground: #11100e;
+  --accent: #e2703a; /* vivid terracotta */
+  --brand-sans: var(--font-inter);
+  --brand-serif: var(--font-syne);
+}
+html[data-concept="motion"] footer {
+  --primary: #0a0908;
+  --primary-foreground: #f2ece0;
+}
+/* The custom cursor adds this class only while it is running (fine pointers). */
+html.has-custom-cursor,
+html.has-custom-cursor * {
+  cursor: none !important;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-sun: var(--sun);
+  --color-clay: var(--clay);
+  --font-sans: var(--brand-sans);
+  --font-serif: var(--brand-serif);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* `both` keeps delayed elements hidden until their turn. */
+  --animate-fade-up: fade-up 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+
+  /* Hero scroll cue: dot glides down a 56px track, fading in and out. */
+  --animate-scroll-dot: scroll-dot 2.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+
+  @keyframes scroll-dot {
+    0% {
+      opacity: 0;
+      transform: translateY(0);
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+  }
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }

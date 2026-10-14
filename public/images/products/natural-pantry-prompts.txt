@@ -1,0 +1,32 @@
+Generated with the built-in image_gen tool.
+Style reference: public/images/home/coconut-oil-elegant-still-life.png
+Final files: public/images/products/<slug>.png and <slug>.webp
+WebP encoded with Sharp at quality 85; original dimensions preserved.
+
+Dried Coconut
+Filename: dried-coconut.png / dried-coconut.webp
+
+Use case: photorealistic-natural
+Asset type: landscape product photograph for the Dried Coconut card in the Natural Pantry section of the Camp Bali website.
+Primary request: create one elegant editorial food still life showing Dried Coconut together with its natural origin.
+Input images: Image 1 is a STYLE REFERENCE ONLY for the existing Camp Bali product image series. Match its cream travertine surface, softly textured muted green backdrop, ivory linen, soft left-side daylight, natural film color and quiet luxurious atmosphere. Replace the oil bottle and props with the specified pantry food. There must be NO bottle.
+Subject: A low elegant matte ivory ceramic bowl heaped with pure-white dried coconut flakes, fine shredded pieces and small irregular thin coconut shavings. The dried coconut is the hero subject: detailed dry fibrous texture, never wet coconut milk or a liquid. A small half of a mature brown coconut with clean white flesh rests immediately behind the bowl to the right, subordinate to the bowl. Only a few dried coconut flakes scatter on the stone near the bowl.
+Setting: low rectangular warm-ivory travertine platform with fine natural pores, understated small cream linen fold at the far left, muted desaturated palm-green #3f5a3a studio wall, cream #faf6ee materials. No visible kitchen, no additional props.
+Composition: landscape 4:3, a generous calm frame for a wide homepage food card. Bowl slightly left of center, source ingredient immediately to its right. Bowl is dominant. Place the bowl and supporting ingredient compactly together within the central 55 percent of the image width, leaving generous clean space at both sides so the main subjects also survive a narrower portrait crop. All important food details lie in the middle 70 percent of the frame height. Camera at a slightly elevated three-quarter angle to clearly show the contents of the bowl while retaining depth. Entire bowl and source ingredient visible, sufficient breathing room above and below. Single photograph, no collage.
+Lighting/style: soft broad morning window light from upper left, natural warm-neutral white balance, gentle grounded shadows, low contrast, realistic food textures, believable matte handmade ceramic, subtle fine film grain, high-end editorial food photography, restrained artisanal elegance.
+Constraints: no people, no hands, no animals, no text, no labels, no logos, no watermark, no oil bottle, no packaging, no utensils, no random flowers, no unrelated fruit, no extra bowls, no CGI, no 3D render, no glossy plastic surfaces, no clutter, no harsh contrast. Emphasize the food itself and its source, consistent with the existing oil photographs.
+
+---
+
+Green Banana Flour
+Filename: green-banana-flour.png / green-banana-flour.webp
+
+Use case: photorealistic-natural
+Asset type: landscape product photograph for the Green Banana Flour card in the Natural Pantry section of the Camp Bali website.
+Primary request: create one elegant editorial food still life showing Green Banana Flour together with its natural origin.
+Input images: Image 1 is a STYLE REFERENCE ONLY for the existing Camp Bali product image series. Match its cream travertine surface, softly textured muted green backdrop, ivory linen, soft left-side daylight, natural film color and quiet luxurious atmosphere. Replace the oil bottle and props with the specified pantry food. There must be NO bottle.
+Subject: A low elegant matte ivory ceramic bowl holding a soft mound of finely milled green banana flour. The flour is naturally warm off-white to very pale beige, NOT green powder. The flour is the hero subject, showing realistic fine powder texture. Two small whole unripe green bananas, connected at their short stem and naturally curved, rest immediately behind the bowl to the right, subordinate to the bowl. A tiny dusting of flour near the bowl, restrained and neat. No ripe yellow bananas.
+Setting: low rectangular warm-ivory travertine platform with fine natural pores, understated small cream linen fold at the far left, muted desaturated palm-green #3f5a3a studio wall, cream #faf6ee materials. No visible kitchen, no additional props.
+Composition: landscape 4:3, a generous calm frame for a wide homepage food card. Bowl slightly left of center, source ingredient immediately to its right. Bowl is dominant. Place the bowl and supporting ingredient compactly together within the central 55 percent of the image width, leaving generous clean space at both sides so the main subjects also survive a narrower portrait crop. All important food details lie in the middle 70 percent of the frame height. Camera at a slightly elevated three-quarter angle to clearly show the contents of the bowl while retaining depth. Entire bowl and source ingredient visible, sufficient breathing room above and below. Single photograph, no collage.
+Lighting/style: soft broad morning window light from upper left, natural warm-neutral white balance, gentle grounded shadows, low contrast, realistic food textures, believable matte handmade ceramic, subtle fine film grain, high-end editorial food photography, restrained artisanal elegance.
+Constraints: no people, no hands, no animals, no text, no labels, no logos, no watermark, no oil bottle, no packaging, no utensils, no random flowers, no unrelated fruit, no extra bowls, no CGI, no 3D render, no glossy plastic surfaces, no clutter, no harsh contrast. Emphasize the food itself and its source, consistent with the existing oil photographs.

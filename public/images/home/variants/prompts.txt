@@ -1,0 +1,30 @@
+Generated with the built-in image_gen tool. Final files exported to 3000 x 1700 px as PNG and WebP using Sharp.
+
+Versi 1 — Dinding dan bayangan palem
+Filename: palm-shadow.png / palm-shadow.webp
+
+Use case: photorealistic-natural.
+Asset type: minimal photographic website hero background.
+Minimal architectural photograph of a smooth warm-cream lime plaster wall (#faf6ee) in soft early-morning Balinese sunlight. Long, delicate shadows of coconut palm fronds fall diagonally across the RIGHT third of the wall; a single real palm frond tip enters from the far right edge, slightly out of focus, muted palm green (#3f5a3a). The LEFT 60% of the frame is calm, evenly lit, nearly empty cream wall with very subtle plaster texture. Gentle warm light, low contrast, airy and serene. Editorial, high-end, quiet luxury, natural film-like color, fine grain. Wide 16:9 landscape, target 3000x1700 px.
+Constraints: No text, letters, logo, watermark, label, people, faces, hands, bottle, jar, packaging, harsh shadows, high contrast, oversaturated colors, yellow oil, 3D render, CGI, plastic look, clutter, busy background, or objects in the center or left side.
+
+---
+
+Versi 2 — Kebun kelapa saat fajar
+Filename: coconut-grove.png / coconut-grove.webp
+
+Use case: photorealistic-natural.
+Asset type: serene landscape photographic website hero background.
+Serene wide landscape photograph of a Balinese coconut grove at dawn. Slender coconut palms stand on the RIGHT third of the frame, softly silhouetted in light morning mist, with faint terraced rice fields fading into haze in the lower right. The LEFT 60% is open, pale misty sky in warm cream and soft ivory tones (#faf6ee), almost blank, perfect for overlaid text. Muted, desaturated palette: cream, soft sage and palm green (#3f5a3a), a whisper of warm terracotta (#b5653a) in the sunrise glow near the horizon. Calm, airy, elegant, editorial travel photography, natural film look, low contrast. Wide 16:9 landscape, target 3000x1700 px.
+Constraints: No text, letters, logo, watermark, label, people, faces, hands, bottle, jar, packaging, harsh shadows, high contrast, oversaturated colors, yellow oil, 3D render, CGI, plastic look, clutter, busy background, or objects in the center or left side.
+Composition precision: the LEFT 60% must remain nearly uniform pale cream mist from top to bottom, including the entire lower-left corner. No discernible vegetation, mountains, fields, palms, or horizon in that left 60%. The land and all palm trees are confined strictly to the RIGHT third. Very dense morning mist dissolves the base of the right-side landscape into ivory. Sparse slender palms softly silhouetted in pale desaturated sage, not dark dramatic trees. Only faint suggestions of rice terraces in the extreme lower-right. Make this substantially paler and lower contrast than a conventional sunrise photograph; the muted warm glow is a whisper and not an orange sky. Restrained minimal composition with very generous blank space.
+
+---
+
+Versi 3 — Kelapa di atas linen
+Filename: coconut-linen.png / coconut-linen.webp
+
+Use case: photorealistic-natural.
+Asset type: minimal editorial food photograph for a website hero background.
+Elegant close-up still photograph of a single halved fresh coconut resting on warm ivory linen, placed in the LOWER RIGHT corner of the frame, showing its fibrous brown husk and pure white flesh in crisp detail. Soft diffused natural daylight from the left, gentle shadow. The rest of the frame — the entire LEFT 60% and upper area — is smooth, softly blurred warm-cream linen and plaster background (#faf6ee) with generous negative space. Minimal, calm, quiet luxury, shallow depth of field, editorial food photography, natural muted tones, fine film grain. Wide 16:9 landscape, target 3000x1700 px.
+Constraints: No text, letters, logo, watermark, label, people, faces, hands, bottle, jar, packaging, harsh shadows, high contrast, oversaturated colors, yellow oil, 3D render, CGI, plastic look, clutter, busy background, or objects in the center or left side.
