@@ -31,7 +31,7 @@ export function ProductImage({
         alt={name}
         fill
         sizes={sizes}
-        priority={priority}
+        preload={priority}
         className={`object-cover ${zoom}`}
       />
     );

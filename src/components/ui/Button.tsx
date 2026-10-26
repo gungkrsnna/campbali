@@ -10,7 +10,7 @@ const styles: Record<Variant, string> = {
 };
 
 export const buttonClass = (variant: Variant = "primary") =>
-  `inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50 ${styles[variant]}`;
+  `inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50 ${styles[variant]}`;
 
 export function ButtonLink({
   href,

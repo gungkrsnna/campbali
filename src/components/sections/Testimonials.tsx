@@ -7,7 +7,7 @@ type Quote = { quote: string; name: string; role: string };
 // each opened by a large terracotta quotation mark.
 export function Testimonials({ title, quotes }: { title: string; quotes: Quote[] }) {
   return (
-    <section className="py-20 sm:py-28 lg:py-36">
+    <section className="py-16 sm:py-28 lg:py-36">
       <Container>
         <Reveal>
           <h2 className="text-center text-[11px] font-medium uppercase tracking-[0.3em] text-muted">
@@ -15,7 +15,7 @@ export function Testimonials({ title, quotes }: { title: string; quotes: Quote[]
           </h2>
         </Reveal>
 
-        <ul className="mt-12 grid gap-14 sm:mt-16 md:grid-cols-3 md:gap-10 lg:gap-16">
+        <ul className="mt-10 grid gap-10 sm:mt-16 sm:gap-14 md:grid-cols-3 md:gap-10 lg:gap-16">
           {quotes.map((q, i) => (
             <li key={q.name}>
               <Reveal delay={i * 150}>

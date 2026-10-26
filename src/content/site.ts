@@ -2,10 +2,12 @@ export const site = {
   name: "Camp Bali",
   /** International format, digits only (e.g. 6281234567890). Set in .env.local. */
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "",
-  email: "hello@campbali.example", // PLACEHOLDER
+  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "",
   location: "Bali, Indonesia",
   instagram: "https://instagram.com/", // PLACEHOLDER — the brand account
 };
+
+export const hasWhatsApp = /^\d{8,15}$/.test(site.whatsappNumber) && site.whatsappNumber !== "6281234567890";
 
 export const navItems = [
   { href: "", key: "home" },

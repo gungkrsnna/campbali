@@ -33,7 +33,7 @@ export function AddToListButton({
       <button
         type="button"
         onClick={() => inquiry.add(code)}
-        className={`group inline-flex items-center gap-2 text-sm font-medium transition-colors ${
+        className={`group inline-flex min-h-11 items-center gap-2 text-left text-sm font-medium transition-colors ${
           tone === "dark"
             ? item
               ? "text-primary-foreground/60"
@@ -75,7 +75,7 @@ export function AddToListButton({
               type="button"
               aria-pressed={v.code === code}
               onClick={() => setCode(v.code)}
-              className={`min-w-16 rounded-full border px-4 py-2 text-sm transition-colors ${
+              className={`min-h-11 min-w-16 rounded-full border px-4 py-2 text-sm transition-colors ${
                 v.code === code
                   ? "border-primary bg-primary text-primary-foreground"
                   : "border-border text-foreground/80 hover:border-primary hover:text-primary"

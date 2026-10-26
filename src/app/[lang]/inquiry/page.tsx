@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { PageTransition } from "@/components/layout/PageTransition";
 import { getDictionary, getLocale } from "@/i18n/get-dictionary";
 import { localePath } from "@/lib/paths";
 import { Container } from "@/components/ui/Container";
@@ -15,7 +16,7 @@ export default async function InquiryPage() {
   const dict = await getDictionary();
 
   return (
-    <>
+    <PageTransition>
       <PageHeader title={dict.inquiry.title} intro={dict.inquiry.intro} />
       <Container className="py-12">
         <InquiryView
@@ -24,6 +25,6 @@ export default async function InquiryPage() {
           browseHref={localePath(locale, "/products")}
         />
       </Container>
-    </>
+    </PageTransition>
   );
 }

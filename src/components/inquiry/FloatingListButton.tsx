@@ -21,7 +21,7 @@ export function FloatingListButton({ locale, label }: { locale: Locale; label: s
       href={href}
       aria-hidden={!visible}
       tabIndex={visible ? undefined : -1}
-      className={`fixed bottom-5 right-5 z-30 inline-flex items-center gap-3 rounded-full bg-primary py-3 pl-5 pr-3 text-sm font-medium text-primary-foreground shadow-lg shadow-primary/20 transition-[opacity,translate] duration-500 ease-out hover:opacity-95 sm:bottom-8 sm:right-8 ${
+      className={`fixed bottom-[calc(1rem+env(safe-area-inset-bottom))] right-4 z-20 inline-flex items-center gap-3 rounded-full bg-primary py-3 pl-5 pr-3 text-sm font-medium text-primary-foreground shadow-lg shadow-primary/20 transition-[opacity,translate] duration-500 ease-out hover:opacity-95 sm:bottom-8 sm:right-8 ${
         visible ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-4 opacity-0"
       }`}
     >

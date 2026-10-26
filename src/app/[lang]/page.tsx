@@ -1,24 +1,23 @@
 import { getDictionary, getLocale } from "@/i18n/get-dictionary";
+import { PageTransition } from "@/components/layout/PageTransition";
 import { getProduct, productsIn } from "@/content/products";
+import { testimonials } from "@/content/testimonials";
+import { faqs } from "@/content/faq";
 import { localePath } from "@/lib/paths";
-import { Hero } from "@/components/sections/Hero";
-import { StatsStrip } from "@/components/sections/StatsStrip";
-import { StorySection } from "@/components/sections/StorySection";
-import { TimelineSection } from "@/components/sections/TimelineSection";
-import { VcoSpotlight } from "@/components/sections/VcoSpotlight";
-import { OilsCollection } from "@/components/sections/OilsCollection";
-import { PantrySection } from "@/components/sections/PantrySection";
-import { ProcessSection } from "@/components/sections/ProcessSection";
-import { ValuesBand } from "@/components/sections/ValuesBand";
+import { buildWhatsAppUrl } from "@/lib/inquiry";
+import { orderPreview } from "@/lib/order-preview";
+import { LuxeHero } from "@/components/concept-luxe/LuxeHero";
+import { LuxeStats } from "@/components/concept-luxe/LuxeStats";
+import { LuxeStory } from "@/components/concept-luxe/LuxeStory";
+import { LuxeTimeline } from "@/components/concept-luxe/LuxeTimeline";
+import { LuxeVco } from "@/components/concept-luxe/LuxeVco";
+import { LuxeCollection } from "@/components/concept-luxe/LuxeCollection";
+import { LuxeProcess } from "@/components/concept-luxe/LuxeProcess";
+import { LuxeValues } from "@/components/concept-luxe/LuxeValues";
+import { LuxeBusiness } from "@/components/concept-luxe/LuxeBusiness";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { HowToOrder } from "@/components/sections/HowToOrder";
 import { FaqSection } from "@/components/sections/FaqSection";
-import { BusinessSection } from "@/components/sections/BusinessSection";
-import { buildWhatsAppUrl } from "@/lib/inquiry";
-import { orderPreview } from "@/lib/order-preview";
-import { ConceptSwitcher } from "@/components/concepts/ConceptSwitcher";
-import { testimonials } from "@/content/testimonials";
-import { faqs } from "@/content/faq";
 
 export default async function HomePage() {
   const locale = await getLocale();
@@ -28,28 +27,31 @@ export default async function HomePage() {
   const productsLink = { href: localePath(locale, "/products"), label: dict.home.viewAll };
 
   return (
-    <>
-      <Hero
+    <PageTransition>
+      <LuxeHero
         titleLead={dict.home.titleLead}
         titleAccent={dict.home.titleAccent}
         tagline={dict.home.tagline}
         primary={{ href: localePath(locale, "/products"), label: dict.home.ctaProducts }}
         secondary={{ href: localePath(locale, "/our-story"), label: dict.home.ctaStory }}
+        image={{ src: "/images/home/model-dynamic-coconut-oil.webp", alt: dict.home.businessImageAlt }}
       />
 
-      <StatsStrip stats={dict.home.stats} />
+      <LuxeStats stats={dict.home.stats} />
 
-      <StorySection
+      <LuxeStory
         label={dict.nav.story}
         year={dict.home.journeyYear}
+        milestone={dict.home.journeyMilestone}
         highlight={dict.home.journeyHighlight}
         story={dict.home.journeyStory}
-        storyLink={{ href: localePath(locale, "/our-story"), label: dict.home.journeyLink }}
+        link={{ href: localePath(locale, "/our-story"), label: dict.home.journeyLink }}
+        image={{ src: "/images/home/variants/coconut-linen.webp", alt: dict.home.journeyImageAlt }}
       />
 
-      <TimelineSection label={dict.story.timelineTitle} milestones={dict.story.timeline} />
+      <LuxeTimeline label={dict.story.timelineTitle} milestones={dict.story.timeline} controls={dict.story.timelineControls} />
 
-      <VcoSpotlight
+      <LuxeVco
         product={vco}
         label={dict.home.vcoLabel}
         detailsLabel={dict.home.vcoDetails}
@@ -57,7 +59,8 @@ export default async function HomePage() {
         t={t}
       />
 
-      <OilsCollection
+      <LuxeCollection
+        eyebrow={dict.home.luxeCollection}
         title={t.categories.oils}
         intro={dict.home.oilsIntro}
         link={productsLink}
@@ -66,7 +69,8 @@ export default async function HomePage() {
         t={t}
       />
 
-      <PantrySection
+      <LuxeCollection
+        eyebrow={dict.home.luxeCollection}
         title={t.categories.foods}
         intro={dict.home.pantryIntro}
         link={productsLink}
@@ -75,14 +79,15 @@ export default async function HomePage() {
         t={t}
       />
 
-      <ProcessSection
+      <LuxeProcess
+        eyebrow={dict.home.luxeProcess}
         title={dict.home.processTitle}
         intro={dict.home.processIntro}
         steps={dict.home.processSteps}
         image={{ src: "/images/home/symmetrical/coconut-grove.webp", alt: dict.home.processImageAlt }}
       />
 
-      <ValuesBand
+      <LuxeValues
         title={dict.home.ethosTitle}
         mission={dict.ethos.mission}
         pillars={dict.ethos.pillars}
@@ -109,19 +114,15 @@ export default async function HomePage() {
         more={{ href: buildWhatsAppUrl(dict.home.faqMessage), label: dict.home.faqMore }}
       />
 
-      <BusinessSection
+      <LuxeBusiness
         label={dict.home.businessLabel}
         title={dict.home.businessTitle}
         text={dict.home.businessText}
-        whatsapp={{
-          href: buildWhatsAppUrl(dict.home.businessMessage),
-          label: dict.home.businessWhatsApp,
-        }}
+        whatsapp={{ href: buildWhatsAppUrl(dict.home.businessMessage), label: dict.home.businessWhatsApp }}
         contact={{ href: localePath(locale, "/contact"), label: dict.home.businessContact }}
-        image={{ src: "/images/home/model-dynamic-coconut-oil.webp", alt: dict.home.businessImageAlt }}
+        image={{ src: "/images/home/model-satin-turn-coconut-oil.webp", alt: dict.home.luxeHeroAlt }}
       />
 
-      <ConceptSwitcher locale={locale} active="a" />
-    </>
+    </PageTransition>
   );
 }

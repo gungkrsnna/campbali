@@ -23,28 +23,28 @@ export function HowToOrder({
   preview: { label: string; brand: string; message: string; reply: string };
 }) {
   return (
-    <section className="bg-surface/70 py-20 sm:py-28 lg:py-36">
-      <Container className="grid gap-14 md:grid-cols-12 md:gap-8">
+    <section className="bg-surface/70 py-16 sm:py-28 lg:py-36">
+      <Container className="grid gap-10 sm:gap-14 md:grid-cols-12 md:gap-8">
         <div className="md:col-span-6 lg:col-span-5">
           <Reveal>
-            <h2 className="font-serif text-[2.75rem] font-medium leading-[1.05] tracking-tight text-primary sm:text-6xl">
+            <h2 className="text-balance font-serif text-4xl font-medium leading-[1.1] tracking-tight text-primary sm:text-6xl">
               {title}
             </h2>
             <p className="mt-6 max-w-sm leading-relaxed text-muted">{intro}</p>
           </Reveal>
 
-          <ol className="mt-12">
+          <ol className="mt-8 sm:mt-12">
             {steps.map((step, i) => (
-              <li key={step.title} className="relative pb-10 last:pb-0">
+              <li key={step.title} className="relative pb-8 last:pb-0 sm:pb-10">
                 {/* Hairline joining the numerals (not after the last step). */}
                 {i < steps.length - 1 && (
                   <span aria-hidden className="absolute bottom-0 left-5 top-12 w-px bg-border" />
                 )}
-                <Reveal delay={i * 150} className="flex gap-6">
+                <Reveal delay={i * 150} className="flex gap-4 sm:gap-6">
                   <span className="relative grid h-10 w-10 shrink-0 place-items-center rounded-full border border-border bg-background font-serif text-lg italic text-accent">
                     {i + 1}
                   </span>
-                  <div className="pt-1">
+                  <div className="min-w-0 pt-1">
                     <h3 className="font-serif text-2xl font-medium leading-tight text-primary">
                       {step.title}
                     </h3>
@@ -56,14 +56,14 @@ export function HowToOrder({
           </ol>
 
           <Reveal delay={450}>
-            <Link href={cta.href} className={`${buttonClass()} mt-12 px-7 py-3`}>
+            <Link href={cta.href} className={`${buttonClass()} mt-8 w-full px-7 py-3 sm:mt-12 sm:w-auto`}>
               {cta.label}
             </Link>
           </Reveal>
         </div>
 
-        <Reveal delay={200} className="md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7">
-          <figure className="rounded-sm bg-primary/[0.07] p-5 sm:p-8 lg:p-10">
+        <Reveal delay={200} className="min-w-0 md:col-span-6 md:col-start-7 lg:col-span-6 lg:col-start-7">
+          <figure className="rounded-sm bg-primary/[0.07] p-3 sm:p-8 lg:p-10">
             <figcaption className="text-[11px] font-medium uppercase tracking-[0.3em] text-muted">
               {preview.label}
             </figcaption>
@@ -78,7 +78,7 @@ export function HowToOrder({
                 <span className="ml-auto h-2 w-2 rounded-full bg-[#25d366]" />
               </div>
 
-              <div className="space-y-3 px-4 py-5 text-[13px] leading-relaxed sm:px-5">
+              <div className="space-y-3 break-words px-3 py-5 text-[13px] leading-relaxed sm:px-5">
                 <p className="ml-auto max-w-[88%] whitespace-pre-line rounded-lg rounded-tr-sm bg-primary/10 px-3.5 py-2.5 text-foreground/90">
                   {preview.message}
                   <span className="mt-1 block text-right text-[10px] text-muted">09:41 ✓✓</span>

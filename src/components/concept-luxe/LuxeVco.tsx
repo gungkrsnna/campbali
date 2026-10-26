@@ -27,15 +27,15 @@ export function LuxeVco({
     <section className="relative bg-surface">
       <BleedImage src={product.image!} alt={product.name[locale]} side="left" position="50% 55%" />
       <Container className="md:grid md:min-h-[44rem] md:grid-cols-2 md:items-center">
-        <Reveal className="py-20 sm:py-24 md:col-start-2 md:pl-12 lg:pl-20">
+        <Reveal className="min-w-0 py-12 sm:py-24 md:col-start-2 md:pl-12 lg:pl-20">
           <Eyebrow>{label}</Eyebrow>
-          <h2 className="mt-8 font-serif text-5xl font-normal leading-[1.05] sm:text-6xl">
+          <h2 className="mt-6 text-balance font-serif text-4xl font-normal leading-[1.1] sm:mt-8 sm:text-6xl">
             {product.name[locale]}
           </h2>
-          <p className="mt-8 max-w-md font-light leading-relaxed text-muted">
+          <p className="mt-6 max-w-md font-light leading-relaxed text-muted sm:mt-8">
             {product.description[locale]}
           </p>
-          <div className="mt-10">
+          <div className="mt-8 sm:mt-10">
             <AddToListButton
               variants={product.variants}
               labels={{ addToList: t.addToList, inList: t.inList, size: t.size }}

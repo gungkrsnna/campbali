@@ -24,12 +24,12 @@ export function LuxeBusiness({
   return (
     <section className="relative bg-surface">
       <Container className="md:grid md:min-h-[44rem] md:grid-cols-2 md:items-center">
-        <Reveal className="py-20 sm:py-24 md:pr-12 lg:pr-20">
+        <Reveal className="min-w-0 py-12 sm:py-24 md:pr-12 lg:pr-20">
           <Eyebrow>{label}</Eyebrow>
-          <h2 className="mt-8 font-serif text-5xl font-normal leading-[1.05] sm:text-6xl">{title}</h2>
-          <p className="mt-8 max-w-md font-light leading-relaxed text-muted">{text}</p>
-          <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-5">
-            <a href={whatsapp.href} target="_blank" rel="noopener noreferrer" className={`${buttonClass()} px-8 py-3.5`}>
+          <h2 className="mt-6 text-balance font-serif text-4xl font-normal leading-[1.1] sm:mt-8 sm:text-6xl">{title}</h2>
+          <p className="mt-6 max-w-md font-light leading-relaxed text-muted sm:mt-8">{text}</p>
+          <div className="mt-7 flex flex-col items-start gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-8 sm:gap-y-5">
+            <a href={whatsapp.href} target="_blank" rel="noopener noreferrer" className={`${buttonClass()} w-full px-5 py-3.5 text-center sm:w-auto sm:px-8`}>
               {whatsapp.label}
             </a>
             <TextLink href={contact.href}>{contact.label}</TextLink>

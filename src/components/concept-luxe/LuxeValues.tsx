@@ -19,23 +19,23 @@ export function LuxeValues({
   link: { href: string; label: string };
 }) {
   return (
-    <section className="py-24 sm:py-32 lg:py-40">
+    <section className="py-16 sm:py-32 lg:py-40">
       <Container>
         <Reveal className="mx-auto max-w-4xl text-center">
           <Eyebrow>{title}</Eyebrow>
-          <p className="mt-8 font-serif text-3xl font-normal italic leading-[1.3] sm:text-4xl">{mission}</p>
+          <p className="mt-6 text-balance font-serif text-3xl font-normal italic leading-[1.3] sm:mt-8 sm:text-4xl">{mission}</p>
         </Reveal>
-        <ol className="mt-16 grid border-y border-border sm:mt-24 md:grid-cols-3 md:divide-x md:divide-border">
+        <ol className="mt-10 grid border-y border-border sm:mt-24 md:grid-cols-3 md:divide-x md:divide-border">
           {pillars.map((p, i) => (
             <li key={p.title} className="border-b border-border last:border-b-0 md:border-b-0">
-              <Reveal delay={i * 150} className="px-4 py-10 text-center md:px-10 md:py-14">
+              <Reveal delay={i * 150} className="py-7 text-left sm:px-4 sm:py-10 md:px-10 md:py-14 md:text-center">
                 <h3 className="font-serif text-2xl font-normal">{p.title}</h3>
-                <p className="mx-auto mt-4 max-w-xs font-light leading-relaxed text-muted">{p.text}</p>
+                <p className="mt-3 font-light leading-relaxed text-muted sm:mt-4 md:mx-auto md:max-w-xs">{p.text}</p>
               </Reveal>
             </li>
           ))}
         </ol>
-        <Reveal delay={450} className="mt-12 text-center">
+        <Reveal delay={450} className="mt-7 text-center sm:mt-12">
           <TextLink href={link.href}>{link.label}</TextLink>
         </Reveal>
       </Container>

@@ -21,7 +21,7 @@ export function TextLink({
   return (
     <Link
       href={href}
-      className={`group inline-flex items-center gap-2 text-sm font-medium ${tones[tone]} ${className}`}
+      className={`group inline-flex min-h-11 items-center gap-2 text-sm font-medium sm:min-h-0 ${tones[tone]} ${className}`}
     >
       <span className="border-b border-current/30 pb-0.5 transition-colors group-hover:border-current">
         {children}

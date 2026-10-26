@@ -3,6 +3,8 @@
 Next.js 16 (App Router, Cache Components) + TypeScript + Tailwind CSS 4.
 Source content: the client brief (`Camp Bali Origins.docx`) and price list live in a local `docs/` folder, which is git-ignored (it contains wholesale prices and contacts).
 
+The selected design is **Deep Green Luxe (concept C)**. Its home page is served at `/` (English) and `/id` (Indonesian). The forest-green palette and Bodoni Moda / Jost fonts apply to every page from the root layout and global CSS. The former `/concept-b`, `/concept-c`, and `/concept-d` URLs redirect to the home page in the same language; there is no design switcher.
+
 ## Getting started
 
 ```bash
@@ -47,6 +49,7 @@ src/
 ## Common tasks
 
 - **Edit page text:** `src/i18n/dictionaries/en.json` and `id.json` (keep keys identical).
+- **Set contact details:** configure the official `NEXT_PUBLIC_WHATSAPP_NUMBER` (international digits only) and `NEXT_PUBLIC_CONTACT_EMAIL` in `.env.local`, then rebuild for production. The Contact form opens a WhatsApp draft; it does not send messages automatically. The example phone number is not used by this form, and an empty email is hidden.
 - **Add a product:** add an entry to `src/content/products.ts`; put its photo in `public/images/products/`.
 - **Add a language:** add the code to `locales` in `src/i18n/config.ts`, copy `en.json` to `<code>.json` and translate, then register it in `get-dictionary.ts`.
 

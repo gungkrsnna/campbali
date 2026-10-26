@@ -4,11 +4,13 @@ const nextConfig: NextConfig = {
   /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
-  // Dev-only "N" badge: bottom-right, clear of the concept switcher (bottom-left on phones).
+  // Keep the dev-only "N" badge in the bottom-right corner.
   devIndicators: { position: "bottom-right" },
   turbopack: {
     rules: {
       "*.css": {
+        // Let Next.js preserve scoped class exports for CSS Modules.
+        condition: { not: { path: /\.module\.css$/ } },
         loaders: ["@tailwindcss/turbopack"],
         as: "*.css",
       },

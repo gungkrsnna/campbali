@@ -32,38 +32,38 @@ export function LuxeCollection({
   const wide = products.length <= 2;
 
   return (
-    <section className="py-24 sm:py-32">
+    <section className="py-16 sm:py-32">
       <Container>
-        <Reveal className="flex flex-wrap items-end justify-between gap-8">
-          <div>
+        <Reveal className="flex flex-wrap items-end justify-between gap-5 sm:gap-8">
+          <div className="min-w-0">
             <Eyebrow>{eyebrow}</Eyebrow>
-            <h2 className="mt-6 font-serif text-5xl font-normal leading-[1.05] sm:text-6xl">{title}</h2>
-            <p className="mt-6 max-w-md font-light leading-relaxed text-muted">{intro}</p>
+            <h2 className="mt-5 text-balance font-serif text-4xl font-normal leading-[1.1] sm:mt-6 sm:text-6xl">{title}</h2>
+            <p className="mt-5 max-w-md font-light leading-relaxed text-muted sm:mt-6">{intro}</p>
           </div>
           <TextLink href={link.href}>{link.label}</TextLink>
         </Reveal>
 
-        <ul className={`mt-14 grid gap-x-4 gap-y-12 sm:mt-20 sm:gap-x-8 ${wide ? "md:grid-cols-2" : "grid-cols-2 md:grid-cols-4"}`}>
+        <ul className={`mt-8 grid grid-cols-1 gap-x-4 gap-y-8 min-[360px]:grid-cols-2 sm:mt-20 sm:gap-x-8 sm:gap-y-12 ${wide ? "md:grid-cols-2" : "md:grid-cols-4"}`}>
           {products.map((p, i) => {
             const href = localePath(locale, `/products/${p.slug}`);
             return (
-              <li key={p.slug}>
+              <li key={p.slug} className="min-w-0">
                 <Reveal delay={i * 100} className="group/card flex h-full flex-col">
-                  <Link href={href} className={`relative block overflow-hidden ${wide ? "aspect-[4/3]" : "aspect-[3/4]"}`}>
-                    <ProductImage product={p} locale={locale} tone="dark" sizes={wide ? "(min-width: 768px) 50vw, 100vw" : "(min-width: 768px) 25vw, 50vw"} />
+                  <Link href={href} className={`relative block overflow-hidden ${wide ? "aspect-[4/3] min-[360px]:aspect-[3/4] md:aspect-[4/3]" : "aspect-[4/3] min-[360px]:aspect-[3/4]"}`}>
+                    <ProductImage product={p} locale={locale} tone="dark" sizes={wide ? "(min-width: 768px) 50vw, (min-width: 360px) 50vw, 100vw" : "(min-width: 768px) 25vw, (min-width: 360px) 50vw, 100vw"} />
                   </Link>
-                  <p className="mt-6 text-[11px] uppercase tracking-[0.25em] text-muted">
+                  <p className="mt-4 text-[11px] uppercase tracking-[0.15em] text-muted sm:mt-6 sm:tracking-[0.25em]">
                     {p.variants.map((v) => v.size).join(" · ")}
                   </p>
-                  <h3 className="mt-3 font-serif text-xl font-normal leading-tight sm:text-2xl">
+                  <h3 className="mt-2 font-serif text-lg font-normal leading-tight sm:mt-3 sm:text-2xl">
                     <Link href={href} className="transition-colors hover:text-accent">
                       {p.name[locale]}
                     </Link>
                   </h3>
-                  <p className="mt-2 hidden flex-1 text-sm font-light leading-relaxed text-muted sm:block">
+                  <p className="mt-2 flex-1 text-sm font-light leading-relaxed text-muted">
                     {p.summary[locale]}
                   </p>
-                  <div className="mt-auto pt-5">
+                  <div className="mt-auto pt-3 sm:pt-5">
                     <AddToListButton
                       variants={p.variants}
                       variant="text"

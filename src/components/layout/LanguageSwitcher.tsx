@@ -40,7 +40,7 @@ export function LanguageSwitcher({
         aria-haspopup="true"
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
-        className="flex items-center gap-1.5 rounded-full border border-border px-3 py-1.5 text-xs font-medium uppercase hover:border-primary hover:text-primary"
+        className="flex min-h-11 items-center gap-1.5 rounded-full border border-border px-2.5 py-1.5 text-xs font-medium uppercase hover:border-primary hover:text-primary sm:px-3"
       >
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
           <circle cx="12" cy="12" r="9" />
@@ -70,7 +70,7 @@ export function LanguageSwitcher({
                 hrefLang={l}
                 aria-current={l === locale ? "true" : undefined}
                 onClick={() => setOpen(false)}
-                className={`flex items-center justify-between gap-4 px-4 py-2 hover:bg-primary/5 ${
+                className={`flex min-h-11 items-center justify-between gap-4 px-4 py-2 hover:bg-primary/5 ${
                   l === locale ? "font-semibold text-primary" : "text-foreground/80"
                 }`}
               >

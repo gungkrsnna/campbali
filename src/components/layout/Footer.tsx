@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { locales, localeLabels, type Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
-import { navItems, site } from "@/content/site";
+import { hasWhatsApp, navItems, site } from "@/content/site";
 import { buildWhatsAppUrl } from "@/lib/inquiry";
 import { localePath } from "@/lib/paths";
 import { Container } from "@/components/ui/Container";
@@ -47,21 +47,25 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         <div className="lg:col-span-3">
           <h2 className={heading}>{t.contactTitle}</h2>
           <ul className="mt-5 space-y-3 text-sm">
-            <li>
-              <a
-                href={buildWhatsAppUrl(dict.home.faqMessage)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={link}
-              >
-                {t.whatsapp}
-              </a>
-            </li>
-            <li>
-              <a href={`mailto:${site.email}`} className={link}>
-                {site.email}
-              </a>
-            </li>
+            {hasWhatsApp && (
+              <li>
+                <a
+                  href={buildWhatsAppUrl(dict.home.faqMessage)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={link}
+                >
+                  {t.whatsapp}
+                </a>
+              </li>
+            )}
+            {site.email && (
+              <li>
+                <a href={`mailto:${site.email}`} className={link}>
+                  {site.email}
+                </a>
+              </li>
+            )}
             <li className="text-primary-foreground/80">{site.location}</li>
           </ul>
         </div>

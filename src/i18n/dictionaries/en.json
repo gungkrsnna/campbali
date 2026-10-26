@@ -58,6 +58,8 @@
     "businessMessage": "Hello Camp Bali, I am interested in wholesale / reseller supply.",
     "businessImageAlt": "A woman in a flowing palm-green linen dress walking barefoot, holding a glass bottle of virgin coconut oil",
     "journeyYear": "2006",
+    "journeyMilestone": "Our first Virgin Coconut Oil",
+    "journeyImageAlt": "A freshly halved coconut on natural linen in soft sunlight",
     "journeyHighlight": "Bali’s first Virgin Coconut Oil",
     "journeyStory": [
       "Nearly two decades ago, our family moved to Bali in search of a simpler life — and so our three children could connect deeply with their Indonesian roots. We came to start an IT business, but high internet costs at the time led us in a new direction.",
@@ -119,6 +121,16 @@
   },
   "story": {
     "title": "Our Story",
+    "description": "Discover Camp Bali's journey, from a family move to Bali in 2005 to pioneering Virgin Coconut Oil and building partnerships with village communities.",
+    "titleLead": "A simpler life.",
+    "titleAccent": "A shared purpose.",
+    "intro": "A family move to Bali became a journey into natural products, local partnerships, and a belief in growing together.",
+    "discover": "Where it began",
+    "landscapeCaption": "Rooted in Bali, Indonesia",
+    "since": "Since 2005",
+    "purposeLabel": "The purpose behind our products",
+    "productImageAlt": "A glass bottle of coconut oil with a wooden cap beside a halved coconut on a stone surface",
+    "closing": "From our first Virgin Coconut Oil to the collection we make today, our story continues with the communities we work alongside.",
     "lead": "Camp Bali: Our Story & Ethos",
     "originsTitle": "Our Origins",
     "origins": [
@@ -126,6 +138,12 @@
       "Partnering with the Bali Appropriate Technology Institute through our company, Consultek, we set out to produce and market high-quality Virgin Coconut Oil (VCO). We were proud pioneers as the first VCO producers in Bali, and reaching the shelves of Bali Buddha marked a major milestone. Over the years, we have expanded into a variety of oils, natural foods, and spa products, with VCO remaining the core of our brand."
     ],
     "timelineTitle": "Milestones",
+    "timelineControls": {
+      "chapter": "Chapter",
+      "previous": "Previous",
+      "next": "Next",
+      "chooseYear": "Choose a chapter by year"
+    },
     "timeline": [
       {
         "year": "2005",
@@ -151,6 +169,17 @@
   },
   "ethos": {
     "title": "Our Ethos: Aid Through Business",
+    "description": "Explore Camp Bali's belief in Aid Through Business: natural products, direct village partnerships, and sustainable livelihoods for rural Indonesian communities.",
+    "heroLead": "Aid through",
+    "heroAccent": "Business.",
+    "heroIntro": "We make natural products with a simple belief: business can help rural communities thrive.",
+    "heroImageAlt": "Coconut palms above rice terraces in the soft morning mist in Bali",
+    "discover": "What guides us",
+    "beliefTitle": "Rooted in community.",
+    "pillarsIntro": "Three principles guide the way we source, create, and work with the communities around us.",
+    "closingLabel": "From principles to products",
+    "closingTitle": "Made with purpose.",
+    "closingText": "Explore the oils and natural pantry products that have grown from our village partnerships.",
     "intro": "We operate on a simple yet powerful conviction: \"Aid through Business.\" We actively partner with local growers, farmers, and artisans across village communities, sourcing raw ingredients and manufacturing locally whenever possible. By supporting sustainable business models, we help strengthen rural economies and empower local communities.",
     "missionTitle": "Our Mission",
     "mission": "To create high-quality, pure natural oils and wellness products while nurturing sustainable livelihoods for rural Indonesian communities.",
@@ -158,20 +187,37 @@
     "pillars": [
       {
         "title": "Aid Through Business",
-        "text": "Empowering rural families through fair commerce rather than charity."
+        "text": "Empowering rural families through fair commerce rather than charity.",
+        "detail": "We build commercial partnerships with village producers, so creating natural products also supports local livelihoods. This is the belief behind Aid Through Business."
       },
       {
         "title": "Community Sourcing",
-        "text": "Partnering directly with local growers and producers to keep revenue inside village economies."
+        "text": "Partnering directly with local growers and producers to keep revenue inside village economies.",
+        "detail": "Wherever possible, we source ingredients and manufacture locally. Working closely with growers, farmers, and artisans helps keep more of the value within village economies."
       },
       {
         "title": "Sustainable Innovation",
-        "text": "Developing new products that breathe life into traditional farming communities."
+        "text": "Developing new products that breathe life into traditional farming communities.",
+        "detail": "We continue developing oils, natural foods, and wellness products that connect traditional ingredients with new opportunities for rural communities."
       }
     ]
   },
   "products": {
     "title": "Products",
+    "description": "Explore Camp Bali's virgin coconut oil, cold-pressed oils and natural pantry essentials. Choose your sizes and build a product inquiry list.",
+    "heroLead": "Nature, in its",
+    "heroAccent": "purest form.",
+    "heroIntro": "From our first virgin coconut oil to everyday pantry essentials. Discover a collection made with respect for nature and the ingredients it gives us.",
+    "catalogue": "Our collection",
+    "filterLabel": "Filter products by category",
+    "productSingular": "product",
+    "productPlural": "products",
+    "viewProduct": "View product",
+    "availableSizes": "Available sizes",
+    "inquiryNote": "Prices and availability are confirmed personally. Choose a size and add it to your list to get started.",
+    "relatedTitle": "Explore a little more",
+    "orderingTitle": "From our collection to you.",
+    "orderingIntro": "A few simple steps, with a personal reply from our team.",
     "intro": "Add products to your list, then send it to us on WhatsApp. We will reply with prices and availability.",
     "all": "All",
     "categories": {
@@ -211,12 +257,101 @@
   },
   "community": {
     "title": "Community",
+    "description": "Meet the idea behind Camp Bali's village partnerships: working with local growers, farmers and artisans to support sustainable livelihoods through business.",
+    "heroLead": "Good things",
+    "heroAccent": "grow together.",
+    "heroIntro": "Behind our natural products is a connection to the people and places of Bali. Our story grows alongside the village communities we work with.",
+    "discover": "Discover our connections",
+    "landscapeAlt": "Coconut palms and terraced fields beneath a soft morning sky",
+    "landscapeCaption": "Where our story takes root",
+    "peopleLabel": "Our village connections",
+    "peopleTitle": "The people behind our products.",
     "intro": "We partner with growers, farmers and artisans across Bali's villages, sourcing raw ingredients and manufacturing locally whenever possible.",
-    "comingSoon": "Stories from our partner villages are coming soon."
+    "partners": [
+      {
+        "label": "Grow",
+        "title": "Growers & farmers",
+        "text": "Our relationships with local growers connect our products to the raw ingredients and agricultural knowledge of Bali's villages."
+      },
+      {
+        "label": "Make",
+        "title": "Village producers",
+        "text": "Sourcing and manufacturing locally whenever possible makes village producers part of the journey from raw ingredients to natural products."
+      },
+      {
+        "label": "Craft",
+        "title": "Local artisans",
+        "text": "Our partnerships extend to local artisans, whose skills and knowledge are part of the communities we work alongside."
+      }
+    ],
+    "purposeLabel": "A shared purpose",
+    "purposeLead": "Local ingredients.",
+    "purposeAccent": "Lasting connections.",
+    "purposeTitle": "Aid Through Business",
+    "purposeText": "We believe a business can help strengthen the communities around it. Working directly with local partners and producing locally wherever possible helps keep value within village economies.",
+    "futureText": "As our collection grows, we continue to develop products that create new possibilities for rural communities, building on the agricultural roots that have shaped village life.",
+    "ethosLink": "The belief behind our work",
+    "closingLabel": "Keep the connection growing",
+    "closingTitle": "Let's grow something good.",
+    "closingText": "Interested in our products or in working with Camp Bali? We would love to hear from you.",
+    "whatsappMessage": "Hello Camp Bali, I would like to learn more about your products and working together."
   },
   "contact": {
     "title": "Contact",
+    "description": "Get in touch with Camp Bali about natural products, wholesale supply or partnerships. Start a personal conversation with our team.",
+    "heroLead": "A conversation,",
+    "heroAccent": "a connection.",
     "intro": "Questions, wholesale or reseller enquiries — we would love to hear from you.",
+    "directLabel": "Talk to our team",
+    "whatsappText": "Ask about our products, sizes or working together.",
+    "emailText": "Prefer email? Write to us directly.",
+    "locationText": "Our roots, and the communities we work alongside.",
+    "messageGreeting": "Hello Camp Bali, I would like to get in touch:",
+    "messageClosing": "Thank you!",
+    "quickMessage": "Hello Camp Bali, I would like to ask about your products or working together.",
+    "form": {
+      "title": "Start a conversation",
+      "intro": "Tell us a little about what you have in mind.",
+      "name": "Your name",
+      "business": "Business / organisation",
+      "optional": "optional",
+      "topic": "What is it about?",
+      "topics": {
+        "general": "A general question",
+        "products": "Products & orders",
+        "wholesale": "Wholesale & reselling",
+        "partnership": "Working together"
+      },
+      "message": "Your message",
+      "messagePlaceholder": "Products you are interested in, sizes you need, or how you would like to work with us…",
+      "requiredNote": "Name and message are required.",
+      "requiredName": "Please enter your name.",
+      "requiredMessage": "Please enter a message.",
+      "submit": "Continue to WhatsApp",
+      "handoffNote": "Your message opens as a draft in WhatsApp. Review it there before sending.",
+      "draftReady": "Your draft is ready.",
+      "reopen": "Open your WhatsApp draft",
+      "unavailable": "WhatsApp is currently unavailable. Please try again later."
+    },
+    "orderLabel": "Already choosing products?",
+    "orderTitle": "Keep everything on one list.",
+    "orderText": "Choose your products and sizes, then send your list to our team for prices and availability.",
+    "questionsLabel": "Before you say hello",
+    "questionsTitle": "A little help getting started.",
+    "questions": [
+      {
+        "question": "How do I ask for product prices?",
+        "answer": "Choose products and sizes in our catalogue and add them to My List. You can send that list on WhatsApp so our team can confirm prices and availability."
+      },
+      {
+        "question": "Can I ask about wholesale or reselling?",
+        "answer": "Yes. Select Wholesale & reselling in the form and tell us about your business, the products you are interested in and the quantities you have in mind."
+      },
+      {
+        "question": "Does this form send my message automatically?",
+        "answer": "The form prepares a WhatsApp draft using the details you enter. You can review or edit the message in WhatsApp and choose when to send it."
+      }
+    ],
     "whatsapp": "Chat on WhatsApp",
     "email": "Email",
     "location": "Location",

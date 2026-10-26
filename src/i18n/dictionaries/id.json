@@ -58,6 +58,8 @@
     "businessMessage": "Halo Camp Bali, saya tertarik dengan pasokan grosir / reseller.",
     "businessImageAlt": "Seorang wanita bergaun linen hijau palem yang berjalan tanpa alas kaki, memegang botol kaca berisi virgin coconut oil",
     "journeyYear": "2006",
+    "journeyMilestone": "Virgin Coconut Oil pertama kami",
+    "journeyImageAlt": "Setengah buah kelapa segar di atas kain linen alami dalam cahaya matahari lembut",
     "journeyHighlight": "Virgin Coconut Oil pertama di Bali",
     "journeyStory": [
       "Hampir dua dekade lalu, keluarga kami pindah ke Bali untuk mencari hidup yang lebih sederhana — dan agar ketiga anak kami terhubung erat dengan akar Indonesia mereka. Awalnya kami datang untuk membangun bisnis IT, namun mahalnya biaya internet saat itu membawa kami ke arah yang berbeda.",
@@ -119,6 +121,16 @@
   },
   "story": {
     "title": "Kisah Kami",
+    "description": "Kenali perjalanan Camp Bali, dari kepindahan keluarga ke Bali pada 2005 hingga menjadi pelopor Virgin Coconut Oil dan bermitra dengan komunitas desa.",
+    "titleLead": "Hidup lebih sederhana.",
+    "titleAccent": "Tumbuh bersama.",
+    "intro": "Kepindahan keluarga kami ke Bali membuka perjalanan menuju produk alami, kemitraan lokal, dan keyakinan untuk tumbuh bersama.",
+    "discover": "Dari sinilah bermula",
+    "landscapeCaption": "Berakar di Bali, Indonesia",
+    "since": "Sejak 2005",
+    "purposeLabel": "Makna di balik produk kami",
+    "productImageAlt": "Botol kaca berisi minyak kelapa dengan tutup kayu di samping setengah buah kelapa di atas permukaan batu",
+    "closing": "Dari Virgin Coconut Oil pertama kami hingga koleksi yang kami buat hari ini, kisah kami terus berlanjut bersama komunitas yang menjadi mitra kami.",
     "lead": "Camp Bali: Kisah & Prinsip Kami",
     "originsTitle": "Awal Mula",
     "origins": [
@@ -126,6 +138,12 @@
       "Melalui perusahaan kami, Consultek, kami bermitra dengan Bali Appropriate Technology Institute untuk memproduksi dan memasarkan Virgin Coconut Oil (VCO) berkualitas tinggi. Kami bangga menjadi pelopor sebagai produsen VCO pertama di Bali, dan masuknya produk kami ke rak Bali Buddha menjadi tonggak penting. Seiring waktu, kami berkembang ke berbagai minyak, makanan alami, dan produk spa, dengan VCO tetap menjadi inti merek kami."
     ],
     "timelineTitle": "Tonggak Perjalanan",
+    "timelineControls": {
+      "chapter": "Bab",
+      "previous": "Sebelumnya",
+      "next": "Berikutnya",
+      "chooseYear": "Pilih bab berdasarkan tahun"
+    },
     "timeline": [
       {
         "year": "2005",
@@ -151,6 +169,17 @@
   },
   "ethos": {
     "title": "Prinsip Kami: Aid Through Business",
+    "description": "Kenali prinsip Aid Through Business dari Camp Bali: produk alami, kemitraan langsung dengan desa, dan mata pencaharian berkelanjutan bagi komunitas pedesaan Indonesia.",
+    "heroLead": "Membantu melalui",
+    "heroAccent": "bisnis.",
+    "heroIntro": "Kami membuat produk alami dengan satu keyakinan: bisnis dapat membantu komunitas desa tumbuh dan berdaya.",
+    "heroImageAlt": "Pohon kelapa di atas sawah berundak dalam kabut pagi yang lembut di Bali",
+    "discover": "Yang memandu kami",
+    "beliefTitle": "Berakar pada komunitas.",
+    "pillarsIntro": "Tiga prinsip memandu cara kami memperoleh bahan baku, membuat produk, dan bekerja bersama komunitas di sekitar kami.",
+    "closingLabel": "Dari prinsip menjadi produk",
+    "closingTitle": "Dibuat dengan tujuan.",
+    "closingText": "Jelajahi minyak dan bahan pangan alami yang tumbuh dari kemitraan kami dengan komunitas desa.",
     "intro": "Kami berpegang pada keyakinan sederhana namun kuat: \"Aid through Business\" — membantu melalui bisnis. Kami bermitra langsung dengan petani, pekebun, dan perajin di desa-desa, mengambil bahan baku dan memproduksi secara lokal sebisa mungkin. Dengan mendukung model bisnis berkelanjutan, kami ikut memperkuat ekonomi pedesaan dan memberdayakan komunitas setempat.",
     "missionTitle": "Misi Kami",
     "mission": "Menghasilkan minyak alami dan produk wellness berkualitas tinggi sambil menumbuhkan mata pencaharian berkelanjutan bagi komunitas pedesaan Indonesia.",
@@ -158,20 +187,37 @@
     "pillars": [
       {
         "title": "Aid Through Business",
-        "text": "Memberdayakan keluarga desa melalui perdagangan yang adil, bukan sekadar bantuan amal."
+        "text": "Memberdayakan keluarga desa melalui perdagangan yang adil, bukan sekadar bantuan amal.",
+        "detail": "Kami membangun kemitraan usaha dengan produsen di desa, sehingga pembuatan produk alami turut mendukung mata pencaharian setempat. Inilah keyakinan di balik Aid Through Business."
       },
       {
         "title": "Pasokan dari Komunitas",
-        "text": "Bermitra langsung dengan petani dan produsen lokal agar pendapatan tetap berputar di ekonomi desa."
+        "text": "Bermitra langsung dengan petani dan produsen lokal agar pendapatan tetap berputar di ekonomi desa.",
+        "detail": "Sebisa mungkin, kami mengambil bahan baku dan memproduksi secara lokal. Hubungan langsung dengan petani, pekebun, dan perajin membantu menjaga nilai ekonomi tetap berada di komunitas desa."
       },
       {
         "title": "Inovasi Berkelanjutan",
-        "text": "Mengembangkan produk baru yang menghidupkan kembali komunitas petani tradisional."
+        "text": "Mengembangkan produk baru yang menghidupkan kembali komunitas petani tradisional.",
+        "detail": "Kami terus mengembangkan minyak, makanan alami, dan produk wellness yang menghubungkan bahan tradisional dengan peluang baru bagi komunitas pedesaan."
       }
     ]
   },
   "products": {
     "title": "Produk",
+    "description": "Jelajahi virgin coconut oil, minyak cold-pressed, dan bahan pangan alami Camp Bali. Pilih ukuran dan susun daftar permintaan produk Anda.",
+    "heroLead": "Kebaikan alam,",
+    "heroAccent": "apa adanya.",
+    "heroIntro": "Dari virgin coconut oil pertama kami hingga bahan pangan sehari-hari. Temukan koleksi yang dibuat dengan menghargai alam dan bahan-bahan yang diberikannya.",
+    "catalogue": "Koleksi kami",
+    "filterLabel": "Filter produk berdasarkan kategori",
+    "productSingular": "produk",
+    "productPlural": "produk",
+    "viewProduct": "Lihat produk",
+    "availableSizes": "Pilihan ukuran",
+    "inquiryNote": "Harga dan ketersediaan dikonfirmasi langsung oleh tim kami. Pilih ukuran dan tambahkan ke daftar untuk memulai.",
+    "relatedTitle": "Jelajahi produk lainnya",
+    "orderingTitle": "Dari koleksi kami untuk Anda.",
+    "orderingIntro": "Beberapa langkah sederhana, dengan balasan langsung dari tim kami.",
     "intro": "Tambahkan produk ke daftar Anda, lalu kirimkan ke kami lewat WhatsApp. Kami akan membalas dengan harga dan ketersediaan.",
     "all": "Semua",
     "categories": {
@@ -211,12 +257,101 @@
   },
   "community": {
     "title": "Komunitas",
+    "description": "Kenali kemitraan Camp Bali dengan petani, pekebun, dan perajin desa untuk mendukung mata pencaharian berkelanjutan melalui bisnis.",
+    "heroLead": "Berakar di desa,",
+    "heroAccent": "tumbuh bersama.",
+    "heroIntro": "Di balik produk alami kami, ada hubungan dengan masyarakat dan alam Bali. Kisah kami tumbuh bersama komunitas desa yang menjadi mitra kami.",
+    "discover": "Kenali komunitas kami",
+    "landscapeAlt": "Pohon kelapa dan sawah berundak di bawah langit pagi yang lembut",
+    "landscapeCaption": "Tempat kisah kami berakar",
+    "peopleLabel": "Kemitraan di desa",
+    "peopleTitle": "Masyarakat di balik produk kami.",
     "intro": "Kami bermitra dengan petani, pekebun, dan perajin di desa-desa Bali, mengambil bahan baku dan memproduksi secara lokal sebisa mungkin.",
-    "comingSoon": "Cerita dari desa-desa mitra kami akan segera hadir."
+    "partners": [
+      {
+        "label": "Menanam",
+        "title": "Petani & pekebun",
+        "text": "Hubungan dengan petani dan pekebun setempat menghubungkan produk kami dengan bahan baku serta pengetahuan pertanian di desa-desa Bali."
+      },
+      {
+        "label": "Mengolah",
+        "title": "Produsen desa",
+        "text": "Dengan memperoleh bahan baku dan memproduksi secara lokal sebisa mungkin, produsen desa menjadi bagian dari perjalanan bahan alami hingga menjadi produk."
+      },
+      {
+        "label": "Berkarya",
+        "title": "Perajin lokal",
+        "text": "Kemitraan kami juga melibatkan perajin lokal, dengan keterampilan dan pengetahuan yang menjadi bagian dari komunitas tempat kami bekerja bersama."
+      }
+    ],
+    "purposeLabel": "Tujuan bersama",
+    "purposeLead": "Bahan dari desa.",
+    "purposeAccent": "Hubungan yang terjaga.",
+    "purposeTitle": "Aid Through Business",
+    "purposeText": "Kami percaya bisnis dapat turut memperkuat komunitas di sekitarnya. Bermitra langsung dengan masyarakat dan memproduksi secara lokal sebisa mungkin membantu menjaga nilai ekonomi tetap berputar di desa.",
+    "futureText": "Seiring berkembangnya koleksi kami, kami terus mengembangkan produk yang membuka peluang baru bagi komunitas pedesaan, berbekal akar pertanian yang membentuk kehidupan desa.",
+    "ethosLink": "Prinsip di balik langkah kami",
+    "closingLabel": "Terus menjalin hubungan",
+    "closingTitle": "Mari tumbuh bersama.",
+    "closingText": "Tertarik dengan produk kami atau ingin bekerja sama dengan Camp Bali? Kami senang mendengar dari Anda.",
+    "whatsappMessage": "Halo Camp Bali, saya ingin mengetahui lebih lanjut tentang produk dan peluang kerja sama."
   },
   "contact": {
     "title": "Kontak",
+    "description": "Hubungi Camp Bali untuk pertanyaan produk alami, pembelian grosir, atau kerja sama. Mulai percakapan langsung dengan tim kami.",
+    "heroLead": "Dari percakapan,",
+    "heroAccent": "terjalin hubungan.",
     "intro": "Pertanyaan, pembelian grosir, atau ingin menjadi reseller — kami senang mendengar dari Anda.",
+    "directLabel": "Hubungi tim kami",
+    "whatsappText": "Tanyakan produk, pilihan ukuran, atau rencana kerja sama Anda.",
+    "emailText": "Lebih nyaman lewat email? Tulis langsung kepada kami.",
+    "locationText": "Tempat kami berakar dan tumbuh bersama komunitas.",
+    "messageGreeting": "Halo Camp Bali, saya ingin menghubungi tim Anda:",
+    "messageClosing": "Terima kasih!",
+    "quickMessage": "Halo Camp Bali, saya ingin bertanya tentang produk atau kerja sama.",
+    "form": {
+      "title": "Mulai percakapan",
+      "intro": "Ceritakan sedikit tentang kebutuhan atau rencana Anda.",
+      "name": "Nama Anda",
+      "business": "Bisnis / organisasi",
+      "optional": "opsional",
+      "topic": "Tentang apa?",
+      "topics": {
+        "general": "Pertanyaan umum",
+        "products": "Produk & pemesanan",
+        "wholesale": "Grosir & reseller",
+        "partnership": "Kerja sama"
+      },
+      "message": "Pesan Anda",
+      "messagePlaceholder": "Produk yang Anda minati, ukuran yang dibutuhkan, atau rencana kerja sama dengan kami…",
+      "requiredNote": "Nama dan pesan wajib diisi.",
+      "requiredName": "Mohon isi nama Anda.",
+      "requiredMessage": "Mohon isi pesan Anda.",
+      "submit": "Lanjut ke WhatsApp",
+      "handoffNote": "Pesan dibuka sebagai draf di WhatsApp. Periksa kembali sebelum mengirim.",
+      "draftReady": "Draf pesan Anda sudah siap.",
+      "reopen": "Buka draf WhatsApp Anda",
+      "unavailable": "WhatsApp sedang tidak tersedia. Silakan coba lagi nanti."
+    },
+    "orderLabel": "Sudah memilih produk?",
+    "orderTitle": "Satukan dalam satu daftar.",
+    "orderText": "Pilih produk beserta ukurannya, lalu kirim daftar Anda kepada tim kami untuk mengetahui harga dan ketersediaan.",
+    "questionsLabel": "Sebelum menghubungi kami",
+    "questionsTitle": "Informasi untuk memulai.",
+    "questions": [
+      {
+        "question": "Bagaimana cara menanyakan harga produk?",
+        "answer": "Pilih produk dan ukurannya di katalog, lalu tambahkan ke Daftar Saya. Kirimkan daftar tersebut lewat WhatsApp agar tim kami dapat mengonfirmasi harga dan ketersediaan."
+      },
+      {
+        "question": "Bisakah saya bertanya tentang grosir atau reseller?",
+        "answer": "Bisa. Pilih Grosir & reseller pada formulir, lalu ceritakan tentang bisnis Anda, produk yang diminati, dan perkiraan jumlah yang dibutuhkan."
+      },
+      {
+        "question": "Apakah formulir ini langsung mengirimkan pesan saya?",
+        "answer": "Formulir menyiapkan draf WhatsApp dari data yang Anda isi. Anda dapat memeriksa atau mengedit pesan di WhatsApp dan memilih kapan ingin mengirimkannya."
+      }
+    ],
     "whatsapp": "Chat lewat WhatsApp",
     "email": "Email",
     "location": "Lokasi",

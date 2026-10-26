@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 // Concept C building block: a photo that bleeds to one edge of the screen on
-// desktop (half the section's width, full height) and sits as a tall block
+// desktop (half the section's width, full height) and sits as a bounded block
 // above/below the copy on mobile. Place inside a `relative` section.
 export function BleedImage({
   src,
@@ -9,16 +9,18 @@ export function BleedImage({
   side,
   position = "center",
   preload = false,
+  mobileAspect = "portrait",
 }: {
   src: string;
   alt: string;
   side: "left" | "right";
   position?: string;
   preload?: boolean;
+  mobileAspect?: "portrait" | "landscape";
 }) {
   return (
     <div
-      className={`relative h-[70svh] max-h-[40rem] md:absolute md:inset-y-0 md:h-auto md:max-h-none md:w-1/2 ${
+      className={`relative ${mobileAspect === "landscape" ? "aspect-[5/4] max-h-[28rem]" : "aspect-[4/5] max-h-[30rem]"} sm:max-h-[36rem] md:absolute md:inset-y-0 md:aspect-auto md:max-h-none md:w-1/2 ${
         side === "right" ? "md:right-0" : "md:left-0"
       }`}
     >
